@@ -1,0 +1,36 @@
+version: '3.9'
+services:
+  php:
+    container_name: webr4-php
+    build:
+      context: docker/php
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - '9696:80'
+    volumes:
+    - .:/var/www
+    networks:
+      - dev
+  db:
+    container_name: webr4-db
+    image: mariadb
+    restart: always
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+    networks:
+      - dev
+  phpmyadmin:
+    container_name: webr4-phpmyadmin
+    image: phpmyadmin
+    restart: always
+    depends_on:
+      - db
+    ports:
+      - 6969:80
+    environment:
+      PMA_HOST: db
+    networks:
+      - dev
+networks:
+  dev:
