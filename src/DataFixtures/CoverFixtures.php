@@ -24,7 +24,7 @@ class CoverFixtures extends Fixture
                     ->setHeight($item->height);
 
             $manager->persist($element);
-            $this->addReference("genre".strval($item->id), $element);
+            $this->addReference("cover".strval($item->id), $element);
         }
 
         $manager->flush();
