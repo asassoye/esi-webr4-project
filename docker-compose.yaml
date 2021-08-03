@@ -6,6 +6,8 @@ services:
       context: docker/php
       dockerfile: Dockerfile
     restart: always
+    depends_on:
+      - db
     ports:
       - '9696:80'
     volumes:
@@ -16,8 +18,10 @@ services:
     container_name: webr4-db
     image: mariadb
     restart: always
+    ports:
+      - '3306:3306'
     environment:
-      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+      MYSQL_ROOT_PASSWORD: root
     networks:
       - dev
   phpmyadmin:
