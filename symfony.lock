@@ -103,6 +103,9 @@
     "laminas/laminas-code": {
         "version": "4.4.2"
     },
+    "nikic/php-parser": {
+        "version": "v4.12.0"
+    },
     "psr/cache": {
         "version": "1.0.1"
     },
@@ -142,6 +145,9 @@
     },
     "symfony/dependency-injection": {
         "version": "v4.4.20"
+    },
+    "symfony/deprecation-contracts": {
+        "version": "v2.4.0"
     },
     "symfony/doctrine-bridge": {
         "version": "v4.4.25"
@@ -206,6 +212,15 @@
     "symfony/http-kernel": {
         "version": "v4.4.20"
     },
+    "symfony/maker-bundle": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "fadbfe33303a76e25cb63401050439aa9b1a9c7f"
+        }
+    },
     "symfony/mime": {
         "version": "v4.4.20"
     },
@@ -229,6 +244,9 @@
     },
     "symfony/polyfill-php80": {
         "version": "v1.22.1"
+    },
+    "symfony/polyfill-php81": {
+        "version": "v1.23.0"
     },
     "symfony/profiler-pack": {
         "version": "v1.0.5"
