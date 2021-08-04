@@ -3,6 +3,8 @@
 namespace App\Entity;
 
 use App\Repository\PlatformRepository;
+use DateTimeImmutable;
+use DateTimeInterface;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -51,6 +53,11 @@ class Platform
      * @ORM\Column(type="integer", nullable=true)
      */
     private $category;
+
+    /**
+     * @ORM\OneToOne(targetEntity=PlatformLogo::class, cascade={"persist", "remove"})
+     */
+    private $logo;
 
     public function getId(): ?int
     {
@@ -105,24 +112,24 @@ class Platform
         return $this;
     }
 
-    public function getCreatedAt(): ?\DateTimeImmutable
+    public function getCreatedAt(): ?DateTimeImmutable
     {
         return $this->created_at;
     }
 
-    public function setCreatedAt(\DateTimeImmutable $created_at): self
+    public function setCreatedAt(DateTimeImmutable $created_at): self
     {
         $this->created_at = $created_at;
 
         return $this;
     }
 
-    public function getUpdatedAt(): ?\DateTimeInterface
+    public function getUpdatedAt(): ?DateTimeInterface
     {
         return $this->updated_at;
     }
 
-    public function setUpdatedAt(\DateTimeInterface $updated_at): self
+    public function setUpdatedAt(DateTimeInterface $updated_at): self
     {
         $this->updated_at = $updated_at;
 
@@ -137,6 +144,18 @@ class Platform
     public function setCategory(int $category): self
     {
         $this->category = $category;
+
+        return $this;
+    }
+
+    public function getLogo(): ?PlatformLogo
+    {
+        return $this->logo;
+    }
+
+    public function setLogo(?PlatformLogo $logo): self
+    {
+        $this->logo = $logo;
 
         return $this;
     }
