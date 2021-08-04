@@ -2,6 +2,7 @@
 
 namespace App\Entity;
 
+use ApiPlatform\Core\Annotation\ApiResource;
 use App\Repository\PlatformRepository;
 use DateTimeImmutable;
 use DateTimeInterface;
@@ -12,6 +13,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * @ORM\Entity(repositoryClass=PlatformRepository::class)
  */
+#[ApiResource]
 class Platform
 {
     /**
