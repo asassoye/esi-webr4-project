@@ -2,7 +2,9 @@
 
 namespace App\Entity;
 
+use ApiPlatform\Core\Annotation\ApiProperty;
 use ApiPlatform\Core\Annotation\ApiResource;
+use ApiPlatform\Core\Annotation\ApiSubresource;
 use App\Repository\GameRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
@@ -18,6 +20,7 @@ class Game
      * @ORM\Id
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
+     * @ApiProperty(identifier=false)
      */
     private $id;
 
@@ -28,6 +31,7 @@ class Game
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @ApiProperty(identifier=true)
      */
     private $slug;
 
@@ -49,11 +53,13 @@ class Game
     /**
      * @ORM\ManyToMany(targetEntity=Genre::class, inversedBy="games")
      */
+    #[ApiSubresource]
     private $genres;
 
     /**
      * @ORM\ManyToMany(targetEntity=Platform::class, inversedBy="games")
      */
+    #[ApiSubresource]
     private $platforms;
 
     /**
@@ -64,6 +70,7 @@ class Game
     /**
      * @ORM\ManyToMany(targetEntity=AgeRating::class, inversedBy="games")
      */
+    #[ApiSubresource]
     private $ageRatings;
 
     /**
@@ -99,21 +106,25 @@ class Game
     /**
      * @ORM\OneToOne(targetEntity=Cover::class, inversedBy="game", cascade={"persist", "remove"})
      */
+    #[ApiSubresource]
     private $cover;
 
     /**
      * @ORM\OneToMany(targetEntity=Screenshot::class, mappedBy="game")
      */
+    #[ApiSubresource]
     private $screenshots;
 
     /**
      * @ORM\OneToMany(targetEntity=Video::class, mappedBy="game")
      */
+    #[ApiSubresource]
     private $videos;
 
     /**
      * @ORM\OneToMany(targetEntity=Website::class, mappedBy="game")
      */
+    #[ApiSubresource]
     private $websites;
 
     /**
