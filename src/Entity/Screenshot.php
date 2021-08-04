@@ -32,6 +32,11 @@ class Screenshot
      */
     private $height;
 
+    /**
+     * @ORM\ManyToOne(targetEntity=Game::class, inversedBy="screenshots")
+     */
+    private $game;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -69,6 +74,18 @@ class Screenshot
     public function setHeight(int $height): self
     {
         $this->height = $height;
+
+        return $this;
+    }
+
+    public function getGame(): ?Game
+    {
+        return $this->game;
+    }
+
+    public function setGame(?Game $game): self
+    {
+        $this->game = $game;
 
         return $this;
     }

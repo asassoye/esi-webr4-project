@@ -32,6 +32,11 @@ class Website
      */
     private $trusted;
 
+    /**
+     * @ORM\ManyToOne(targetEntity=Game::class, inversedBy="websites")
+     */
+    private $game;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -69,6 +74,18 @@ class Website
     public function setTrusted(bool $trusted): self
     {
         $this->trusted = $trusted;
+
+        return $this;
+    }
+
+    public function getGame(): ?Game
+    {
+        return $this->game;
+    }
+
+    public function setGame(?Game $game): self
+    {
+        $this->game = $game;
 
         return $this;
     }

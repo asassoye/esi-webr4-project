@@ -32,6 +32,11 @@ class Cover
      */
     private $height;
 
+    /**
+     * @ORM\OneToOne(targetEntity=Game::class, mappedBy="cover", cascade={"persist", "remove"})
+     */
+    private $game;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -69,6 +74,28 @@ class Cover
     public function setHeight(int $height): self
     {
         $this->height = $height;
+
+        return $this;
+    }
+
+    public function getGame(): ?Game
+    {
+        return $this->game;
+    }
+
+    public function setGame(?Game $game): self
+    {
+        // unset the owning side of the relation if necessary
+        if ($game === null && $this->game !== null) {
+            $this->game->setCover(null);
+        }
+
+        // set the owning side of the relation if necessary
+        if ($game !== null && $game->getCover() !== $this) {
+            $game->setCover($this);
+        }
+
+        $this->game = $game;
 
         return $this;
     }

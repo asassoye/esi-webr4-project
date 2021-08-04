@@ -27,6 +27,11 @@ class Video
      */
     private $url;
 
+    /**
+     * @ORM\ManyToOne(targetEntity=Game::class, inversedBy="videos")
+     */
+    private $game;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -52,6 +57,18 @@ class Video
     public function setUrl(string $url): self
     {
         $this->url = $url;
+
+        return $this;
+    }
+
+    public function getGame(): ?Game
+    {
+        return $this->game;
+    }
+
+    public function setGame(?Game $game): self
+    {
+        $this->game = $game;
 
         return $this;
     }
