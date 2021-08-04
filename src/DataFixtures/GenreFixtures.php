@@ -19,8 +19,8 @@ class GenreFixtures extends Fixture
         foreach ($json as $item) {
             $element = new Genre();
             $element
-                    ->setName(strval($item->name))
-                    ->setSlug(strval($item->slug));
+              ->setName(strval($item->name))
+              ->setSlug(strval($item->slug));
 
             $manager->persist($element);
             $this->addReference("genre".strval($item->id), $element);

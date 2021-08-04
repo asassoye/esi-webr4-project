@@ -3,6 +3,7 @@
 namespace App\DataFixtures;
 
 use App\Entity\Platform;
+use DateTimeImmutable;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Persistence\ObjectManager;
 
@@ -19,10 +20,10 @@ class PlatformFixtures extends Fixture
         foreach ($json as $item) {
             $element = new Platform();
             $element
-                    ->setName(strval($item->name))
-                    ->setSlug(strval($item->slug))
-                    ->setCreatedAt((new \DateTimeImmutable())->setTimestamp(strval($item->created_at)))
-                    ->setUpdatedAt((new \DateTimeImmutable())->setTimestamp(strval($item->updated_at)));
+              ->setName(strval($item->name))
+              ->setSlug(strval($item->slug))
+              ->setCreatedAt((new DateTimeImmutable())->setTimestamp(strval($item->created_at)))
+              ->setUpdatedAt((new DateTimeImmutable())->setTimestamp(strval($item->updated_at)));
 
             if (isset($item->abbreviation)) {
                 $element->setAbbreviation(strval($item->abbreviation));

@@ -19,9 +19,9 @@ class CoverFixtures extends Fixture
         foreach ($json as $item) {
             $element = new Cover();
             $element
-                    ->setUrl(strval($item->url))
-                    ->setWidth($item->width)
-                    ->setHeight($item->height);
+              ->setUrl(strval($item->url))
+              ->setWidth($item->width)
+              ->setHeight($item->height);
 
             $manager->persist($element);
             $this->addReference("cover".strval($item->id), $element);
