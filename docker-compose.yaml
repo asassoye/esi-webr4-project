@@ -11,7 +11,8 @@ services:
     ports:
       - '9696:80'
     volumes:
-    - .:/var/www
+      - .:/var/www/html
+      - /var/www/html/var
     networks:
       - dev
   db:
@@ -31,7 +32,7 @@ services:
     depends_on:
       - db
     ports:
-      - 6969:80
+      - '6969:80'
     environment:
       PMA_HOST: db
     networks:

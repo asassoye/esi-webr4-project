@@ -1,6 +1,7 @@
-FROM php:8.0.3-apache
+FROM php:8-apache
 
 RUN chown -R www-data:www-data /var/www
+RUN rm -rf /var/www/html/*
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends locales apt-utils git libicu-dev g++ libpng-dev libxml2-dev libzip-dev libonig-dev libxslt-dev \
