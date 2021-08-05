@@ -59,7 +59,7 @@
 						{% for screenshot in game.screenshots %}
 							<div class="carousel-item {% if screenshot == game.screenshots[0] %}active{% endif %}">
 								<img src="https://images.igdb.com/igdb/image/upload/t_1080p/{{ screenshot.url }}.jpg"
-								     class="d-block w-100">
+								     class="d-block w-100" draggable="false">
 							</div>
 						{% endfor %}
 					</div>
