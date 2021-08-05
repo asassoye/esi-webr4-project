@@ -15,7 +15,7 @@
 							</div>
 							<div class="col-7">
 								<div class="game-card-body">
-									<h5 class="">{{ game.name }}</h5>
+									<h5 class="">{{ game.name }} ({{ game.releaseDate|date("Y") }})</h5>
 									{% for platform in game.platforms %}
 										<span class="badge bg-primary">{{ platform.abbreviation }}</span>
 									{% endfor %}
