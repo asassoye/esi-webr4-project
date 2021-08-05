@@ -6,6 +6,7 @@ use App\Entity\Website;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Persistence\ObjectManager;
 
+@ini_set('memory_limit', -1);
 
 class WebsiteFixtures extends Fixture
 {

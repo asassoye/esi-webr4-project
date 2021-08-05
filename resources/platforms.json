@@ -235,6 +235,16 @@
     "updated_at": 1468540800
   },
   {
+    "id": 27,
+    "abbreviation": "MSX",
+    "category": 6,
+    "created_at": 1300147200,
+    "name": "MSX",
+    "platform_logo": 307,
+    "slug": "msx",
+    "updated_at": 1468540800
+  },
+  {
     "id": 29,
     "abbreviation": "Genesis",
     "category": 1,
@@ -244,6 +254,17 @@
     "platform_logo": 293,
     "slug": "smd",
     "updated_at": 1400112000
+  },
+  {
+    "id": 30,
+    "abbreviation": "Sega32",
+    "category": 1,
+    "created_at": 1300924800,
+    "generation": 4,
+    "name": "Sega 32X",
+    "platform_logo": 279,
+    "slug": "sega32",
+    "updated_at": 1555977600
   },
   {
     "id": 32,
@@ -257,6 +278,17 @@
     "updated_at": 1540771200
   },
   {
+    "id": 33,
+    "abbreviation": "Game Boy",
+    "category": 5,
+    "created_at": 1302307200,
+    "generation": 4,
+    "name": "Game Boy",
+    "platform_logo": 274,
+    "slug": "gb",
+    "updated_at": 1475625600
+  },
+  {
     "id": 34,
     "abbreviation": "Android",
     "category": 4,
@@ -265,6 +297,17 @@
     "platform_logo": 376,
     "slug": "android",
     "updated_at": 1556150400
+  },
+  {
+    "id": 35,
+    "abbreviation": "Game Gear",
+    "category": 5,
+    "created_at": 1303862400,
+    "generation": 4,
+    "name": "Sega Game Gear",
+    "platform_logo": 287,
+    "slug": "gamegear",
+    "updated_at": 1469404800
   },
   {
     "id": 37,
@@ -376,6 +419,28 @@
     "updated_at": 1429920000
   },
   {
+    "id": 50,
+    "abbreviation": "3DO",
+    "category": 1,
+    "created_at": 1326758400,
+    "generation": 5,
+    "name": "3DO Interactive Multiplayer",
+    "platform_logo": 282,
+    "slug": "3do",
+    "updated_at": 1392076800
+  },
+  {
+    "id": 51,
+    "abbreviation": "fds",
+    "category": 1,
+    "created_at": 1339200000,
+    "generation": 3,
+    "name": "Family Computer Disk System",
+    "platform_logo": 299,
+    "slug": "fds",
+    "updated_at": 1540771200
+  },
+  {
     "id": 52,
     "abbreviation": "Arcade",
     "created_at": 1339977600,
@@ -403,6 +468,17 @@
     "updated_at": 1399766400
   },
   {
+    "id": 59,
+    "abbreviation": "Atari2600",
+    "category": 1,
+    "created_at": 1372204800,
+    "generation": 2,
+    "name": "Atari 2600",
+    "platform_logo": 309,
+    "slug": "atari2600",
+    "updated_at": 1392076800
+  },
+  {
     "id": 60,
     "abbreviation": "Atari7800",
     "category": 1,
@@ -411,6 +487,17 @@
     "name": "Atari 7800",
     "platform_logo": 303,
     "slug": "atari7800",
+    "updated_at": 1392076800
+  },
+  {
+    "id": 62,
+    "abbreviation": "Jaguar",
+    "category": 1,
+    "created_at": 1372204800,
+    "generation": 5,
+    "name": "Atari Jaguar",
+    "platform_logo": 286,
+    "slug": "jaguar",
     "updated_at": 1392076800
   },
   {
@@ -435,6 +522,50 @@
     "updated_at": 1515628800
   },
   {
+    "id": 65,
+    "abbreviation": "Atari8bit",
+    "category": 6,
+    "created_at": 1372464000,
+    "name": "Atari 8-bit",
+    "platform_logo": 373,
+    "slug": "atari8bit",
+    "updated_at": 1468540800
+  },
+  {
+    "id": 66,
+    "abbreviation": "Atari5200",
+    "category": 1,
+    "created_at": 1372464000,
+    "generation": 2,
+    "name": "Atari 5200",
+    "platform_logo": 304,
+    "slug": "atari5200",
+    "summary": "the mother text",
+    "updated_at": 1416700800
+  },
+  {
+    "id": 67,
+    "abbreviation": "intellivision",
+    "category": 1,
+    "created_at": 1372464000,
+    "generation": 2,
+    "name": "Intellivision",
+    "platform_logo": 312,
+    "slug": "intellivision",
+    "updated_at": 1392076800
+  },
+  {
+    "id": 68,
+    "abbreviation": "colecovision",
+    "category": 1,
+    "created_at": 1372464000,
+    "generation": 2,
+    "name": "ColecoVision",
+    "platform_logo": 311,
+    "slug": "colecovision",
+    "updated_at": 1392076800
+  },
+  {
     "id": 69,
     "abbreviation": "bbcmicro",
     "category": 6,
@@ -443,6 +574,16 @@
     "platform_logo": 294,
     "slug": "bbcmicro",
     "updated_at": 1468454400
+  },
+  {
+    "id": 71,
+    "abbreviation": "vic-20",
+    "category": 6,
+    "created_at": 1372464000,
+    "name": "Commodore VIC-20",
+    "platform_logo": 313,
+    "slug": "vic-20",
+    "updated_at": 1429142400
   },
   {
     "id": 72,
@@ -498,6 +639,17 @@
     "updated_at": 1468454400
   },
   {
+    "id": 78,
+    "abbreviation": "segacd",
+    "category": 1,
+    "created_at": 1391904000,
+    "generation": 4,
+    "name": "Sega CD",
+    "platform_logo": 284,
+    "slug": "segacd",
+    "updated_at": 1391904000
+  },
+  {
     "id": 79,
     "abbreviation": "neogeomvs",
     "category": 2,
@@ -548,12 +700,62 @@
     "updated_at": 1439683200
   },
   {
+    "id": 114,
+    "category": 1,
+    "created_at": 1441238400,
+    "generation": 5,
+    "name": "Amiga CD32",
+    "platform_logo": 283,
+    "slug": "amiga-cd32",
+    "updated_at": 1589587200
+  },
+  {
+    "id": 120,
+    "category": 5,
+    "created_at": 1441238400,
+    "generation": 5,
+    "name": "Neo Geo Pocket Color",
+    "platform_logo": 269,
+    "slug": "neo-geo-pocket-color",
+    "updated_at": 1559260800
+  },
+  {
+    "id": 123,
+    "category": 5,
+    "created_at": 1441411200,
+    "generation": 5,
+    "name": "WonderSwan Color",
+    "platform_logo": 261,
+    "slug": "wonderswan-color",
+    "updated_at": 1559260800
+  },
+  {
     "id": 125,
     "category": 6,
     "created_at": 1445126400,
     "name": "PC-8801",
     "platform_logo": 542,
     "slug": "pc-8801",
+    "updated_at": 1591228800
+  },
+  {
+    "id": 127,
+    "category": 1,
+    "created_at": 1457395200,
+    "generation": 2,
+    "name": "Fairchild Channel F",
+    "platform_logo": 316,
+    "slug": "fairchild-channel-f",
+    "updated_at": 1506384000
+  },
+  {
+    "id": 129,
+    "abbreviation": "ti-99",
+    "category": 6,
+    "created_at": 1459296000,
+    "name": "Texas Instruments TI-99",
+    "platform_logo": 540,
+    "slug": "ti-99",
     "updated_at": 1591228800
   },
   {
@@ -568,6 +770,15 @@
     "updated_at": 1550534400
   },
   {
+    "id": 132,
+    "category": 3,
+    "created_at": 1469664000,
+    "name": "Amazon Fire TV",
+    "platform_logo": 325,
+    "slug": "amazon-fire-tv",
+    "updated_at": 1469664000
+  },
+  {
     "id": 134,
     "category": 6,
     "created_at": 1479427200,
@@ -575,6 +786,16 @@
     "platform_logo": 301,
     "slug": "acorn-electron",
     "updated_at": 1479427200
+  },
+  {
+    "id": 136,
+    "category": 1,
+    "created_at": 1492041600,
+    "generation": 4,
+    "name": "Neo Geo CD",
+    "platform_logo": 281,
+    "slug": "neo-geo-cd",
+    "updated_at": 1492041600
   },
   {
     "id": 137,
@@ -585,6 +806,33 @@
     "platform_logo": 235,
     "slug": "new-nintendo-3ds",
     "updated_at": 1591574400
+  },
+  {
+    "id": 149,
+    "category": 6,
+    "created_at": 1508976000,
+    "name": "PC-98",
+    "platform_logo": 366,
+    "slug": "pc-98",
+    "updated_at": 1508976000
+  },
+  {
+    "id": 152,
+    "category": 6,
+    "created_at": 1510012800,
+    "name": "FM-7",
+    "platform_logo": 538,
+    "slug": "fm-7",
+    "updated_at": 1591228800
+  },
+  {
+    "id": 157,
+    "category": 6,
+    "created_at": 1510012800,
+    "name": "NEC PC-6000 Series",
+    "platform_logo": 370,
+    "slug": "nec-pc-6000-series",
+    "updated_at": 1510012800
   },
   {
     "id": 159,
