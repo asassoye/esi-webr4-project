@@ -14,7 +14,7 @@
 							<i class="fas fa-search"></i>
 						</span>
 			<input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search" name="query"
-			       autocomplete="off">
+			       autocomplete="off" {% if query is defined %}value="{{ query }}"{% endif %}>
 		</div>
 	</form>
 </nav>
