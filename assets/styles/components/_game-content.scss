@@ -1,7 +1,7 @@
 article.game-content {
   padding-top: 1rem;
 
-  h1 {
+  h1.game-name {
     font-weight: bold;
     font-size: 2em;
     line-height: 0;
@@ -9,7 +9,7 @@ article.game-content {
     user-select: text;
   }
 
-  h3 {
+  h3.game-release {
     font-weight: normal;
     font-size: 1em;
     line-height: 2rem;

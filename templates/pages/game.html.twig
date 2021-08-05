@@ -37,8 +37,8 @@
 			</div>
 		</aside>
 		<article class="col-9 game-content">
-			<h1>{{ game.name }}</h1>
-			<h3>{{ game.releaseDate|date("d F Y") }}</h3>
+			<h1 class="game-name">{{ game.name }}</h1>
+			<h3 class="game-release">{{ game.releaseDate|date("d F Y") }}</h3>
 			<p class="badge-list"><strong>Genres: </strong>
 				{% for genre in game.genres %}
 					<span class="badge bg-dark">{{ genre.name }}</span>
@@ -52,6 +52,29 @@
 			<p class="summary">
 				{{ game.summary }}
 			</p>
+			<div class="screenshots">
+				<h3>Screenshots</h3>
+				<div id="screenshots-carousel" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-inner">
+						{% for screenshot in game.screenshots %}
+							<div class="carousel-item {% if screenshot == game.screenshots[0] %}active{% endif %}">
+								<img src="https://images.igdb.com/igdb/image/upload/t_1080p/{{ screenshot.url }}.jpg"
+								     class="d-block w-100">
+							</div>
+						{% endfor %}
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#screenshots-carousel"
+					        data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#screenshots-carousel"
+					        data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
 		</article>
 	</div>
 {% endblock %}

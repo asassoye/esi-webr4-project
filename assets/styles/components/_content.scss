@@ -13,11 +13,11 @@
   }
 
   &::-webkit-scrollbar-track {
-    background: $dark;
+    background: $primary;
   }
 
   &::-webkit-scrollbar-thumb {
-    background: $primary;
+    background: $dark;
 
     &:hover {
       background: white;
