@@ -1,0 +1,32 @@
+{% extends 'gdb_base.html.twig' %}
+
+{% block title %}Searching "{{ query }}"{% endblock %}
+
+{% block main %}
+	<div class="row" style="margin: 0; padding: 2rem;">
+		{% for game in games %}
+			<div class="col-6 px-2 py-2 game-card-wrapper">
+				<a href="{{ path('app_game_showgame', {'slug': game.slug}) }}">
+					<div class="game-card">
+						<div class="row g-0">
+							<div class="col-5">
+								<img src="https://images.igdb.com/igdb/image/upload/t_cover_big/{{ game.cover.url }}.jpg"
+								     class="img-fluid game-card-image">
+							</div>
+							<div class="col-7">
+								<div class="game-card-body">
+									<h5 class="">{{ game.name }}</h5>
+									{% for platform in game.platforms %}
+										<span class="badge bg-primary">{{ platform.abbreviation }}</span>
+									{% endfor %}
+									<p class="">{{ game.summary | slice(0, 100) }}...</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+
+		{% endfor %}
+	</div>
+{% endblock %}
