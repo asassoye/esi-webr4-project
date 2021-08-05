@@ -23,7 +23,8 @@ class GameRepository extends ServiceEntityRepository
     {
         $qb = $this->createQueryBuilder("g")
           ->where('g.name LIKE :query')
-          ->setParameter('query', '%'.$query.'%');
+          ->setParameter('query', '%'.$query.'%')
+          ->orderBy('g.releaseDate', 'DESC');
 
         $query = $qb->getQuery();
 
