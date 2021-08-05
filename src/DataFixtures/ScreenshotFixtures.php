@@ -19,7 +19,7 @@ class ScreenshotFixtures extends Fixture
         foreach ($json as $item) {
             $element = new Screenshot();
             $element
-              ->setUrl(strval(strval($item->url)));
+              ->setUrl(strval(strval($item->image_id)));
 
             if (isset($item->width)) {
                 $element->setWidth($item->width);

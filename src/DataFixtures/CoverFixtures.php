@@ -19,7 +19,7 @@ class CoverFixtures extends Fixture
         foreach ($json as $item) {
             $element = new Cover();
             $element
-              ->setUrl(strval($item->url))
+              ->setUrl(strval($item->image_id))
               ->setWidth($item->width)
               ->setHeight($item->height);
 
