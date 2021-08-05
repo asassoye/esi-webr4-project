@@ -8,14 +8,17 @@
     },
     "private": true,
     "devDependencies": {
-        "@symfony/stimulus-bridge": "^2.0.0",
-        "@symfony/webpack-encore": "^1.0.0",
-        "core-js": "^3.0.0",
-        "regenerator-runtime": "^0.13.2",
-        "sass": "^1.32.8",
-        "sass-loader": "^11.0.0",
-        "stimulus": "^2.0.0",
-        "webpack-notifier": "^1.6.0"
+      "@symfony/stimulus-bridge": "^2.1",
+      "@symfony/webpack-encore": "^1.5",
+      "core-js": "^3.16",
+      "regenerator-runtime": "^0.13",
+      "sass": "1.32.*",
+      "sass-loader": "^12.1.0",
+      "stimulus": "^2.0",
+      "webpack-notifier": "^1.13",
+      "@fortawesome/fontawesome-free": "^5.15.4",
+      "@popperjs/core": "^2.9",
+      "bootstrap": "^5.1"
     },
     "scripts": {
         "dev-server": "encore dev-server",
@@ -24,7 +27,5 @@
         "build": "encore production --progress"
     },
     "dependencies": {
-        "@popperjs/core": "^2.9.1",
-        "bootstrap": "^5.0.0-beta2"
     }
 }

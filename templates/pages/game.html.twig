@@ -1,0 +1,57 @@
+{% extends 'gdb_base.html.twig' %}
+
+{% block title %}{{ game.name }}{% endblock %}
+
+{% block main %}
+	<div class="row">
+		<aside class="col-3">
+			<img class="img-fluid cover-image"
+			     src="https://images.igdb.com/igdb/image/upload/t_original/{{ game.cover.url }}.jpg"/>
+			<div class="rating-box">
+				<div class="rating">
+					<h3>Member ratings</h3>
+					<div class="progress">
+						<div class="progress-bar bg-success" role="progressbar" style="width: {{ game.rating }}%"
+						     aria-valuenow="{{ game.rating }}" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p class="rating-details">
+						<strong>
+							{{ game.rating|number_format(0) }} / 100
+						</strong>
+						on {{ game.ratingCount }} ratings
+					</p>
+				</div>
+				<div class="rating">
+					<h3>Critic ratings</h3>
+					<div class="progress">
+						<div class="progress-bar bg-success" role="progressbar" style="width: {{ game.aggregatedRating }}%"
+						     aria-valuenow="{{ game.aggregatedRating }}" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p class="rating-details">
+						<strong>
+							{{ game.aggregatedRating|number_format(0) }} / 100
+						</strong>
+						on {{ game.aggregatedRatingCount }} ratings
+					</p>
+				</div>
+			</div>
+		</aside>
+		<article class="col-9 game-content">
+			<h1>{{ game.name }}</h1>
+			<h3>{{ game.releaseDate|date("d F Y") }}</h3>
+			<p class="badge-list"><strong>Genres: </strong>
+				{% for genre in game.genres %}
+					<span class="badge bg-dark">{{ genre.name }}</span>
+				{% endfor %}
+			</p>
+			<p class="badge-list"><strong>Platforms: </strong>
+				{% for platform in game.platforms %}
+					<span class="badge bg-dark">{{ platform.abbreviation }}</span>
+				{% endfor %}
+			</p>
+			<p class="summary">
+				{{ game.summary }}
+			</p>
+		</article>
+	</div>
+{% endblock %}

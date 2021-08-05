@@ -1,0 +1,26 @@
+.content {
+  height: calc(100% - 3.5rem);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  color: white;
+  padding: 2rem 2rem;
+  margin: 0;
+  scrollbar-color: $dark;
+  scrollbar-width: thin;
+
+  &::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $dark;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $primary;
+
+    &:hover {
+      background: white;
+    }
+  }
+}

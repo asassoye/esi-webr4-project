@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+	<main class="container" id="root">
+		{% include 'includes/main-menu.html.twig' %}
+		<div class="content">
+			{% block main %}
+			{% endblock %}
+		</div>
+	</main>
+{% endblock %}

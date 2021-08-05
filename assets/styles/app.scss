@@ -3,9 +3,18 @@
 @import "abstracts/mixins";
 @import "abstracts/placeholders";
 
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+
 @import "base/base";
 @import "base/typography";
 @import "base/animations";
 @import "base/utilities";
 
-@import "~bootstrap/scss/bootstrap";
+@import "components/root";
+@import "components/main-nav";
+@import "components/content";
+@import "components/game-content";
+@import "components/cover-image";
+@import "components/rating-box";
