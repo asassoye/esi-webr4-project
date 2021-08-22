@@ -8,12 +8,13 @@
 			<a class="nav-link" href="#"><i class="fas fa-info-circle"></i> About</a>
 		</li>
 	</ul>
-	<form class="d-flex navbar-search" action="http://localhost:9696/search" method="get">
+	<form class="d-flex navbar-search" action="http://localhost:9696/search" method="get" id="searchForm">
 		<div class="input-group">
 						<span class="icon">
 							<i class="fas fa-search"></i>
 						</span>
-			<input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search" name="query"
+			<input id="searchInput" class="form-control me-2" type="search" placeholder="Search..." aria-label="Search"
+			       name="query"
 			       autocomplete="off" {% if query is defined %}value="{{ query }}"{% endif %}>
 		</div>
 	</form>
