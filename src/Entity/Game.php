@@ -2,25 +2,22 @@
 
 namespace App\Entity;
 
-use ApiPlatform\Core\Annotation\ApiProperty;
-use ApiPlatform\Core\Annotation\ApiResource;
-use ApiPlatform\Core\Annotation\ApiSubresource;
 use App\Repository\GameRepository;
+use DateTimeInterface;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use JsonSerializable;
 
 /**
  * @ORM\Entity(repositoryClass=GameRepository::class)
  */
-#[ApiResource]
-class Game
+class Game implements JsonSerializable
 {
     /**
      * @ORM\Id
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
-     * @ApiProperty(identifier=false)
      */
     private $id;
 
@@ -31,7 +28,6 @@ class Game
 
     /**
      * @ORM\Column(type="string", length=255)
-     * @ApiProperty(identifier=true)
      */
     private $slug;
 
@@ -53,13 +49,11 @@ class Game
     /**
      * @ORM\ManyToMany(targetEntity=Genre::class, inversedBy="games")
      */
-    #[ApiSubresource]
     private $genres;
 
     /**
      * @ORM\ManyToMany(targetEntity=Platform::class, inversedBy="games")
      */
-    #[ApiSubresource]
     private $platforms;
 
     /**
@@ -70,7 +64,6 @@ class Game
     /**
      * @ORM\ManyToMany(targetEntity=AgeRating::class, inversedBy="games")
      */
-    #[ApiSubresource]
     private $ageRatings;
 
     /**
@@ -106,25 +99,21 @@ class Game
     /**
      * @ORM\OneToOne(targetEntity=Cover::class, inversedBy="game", cascade={"persist", "remove"})
      */
-    #[ApiSubresource]
     private $cover;
 
     /**
      * @ORM\OneToMany(targetEntity=Screenshot::class, mappedBy="game")
      */
-    #[ApiSubresource]
     private $screenshots;
 
     /**
      * @ORM\OneToMany(targetEntity=Video::class, mappedBy="game")
      */
-    #[ApiSubresource]
     private $videos;
 
     /**
      * @ORM\OneToMany(targetEntity=Website::class, mappedBy="game")
      */
-    #[ApiSubresource]
     private $websites;
 
     /**
@@ -492,5 +481,23 @@ class Game
         $this->updatedAt = $updatedAt;
 
         return $this;
+    }
+
+    public function jsonSerialize(): array
+    {
+        return array(
+          "name" => $this->getName(),
+          "slug" => $this->getSlug(),
+          "cover" => array(
+            "url" => $this->getCover()->getUrl(),
+          ),
+          "releaseDate" => $this->getReleaseDate()->format(DateTimeInterface::ATOM),
+          "platforms" => array_map(function ($platform) {
+              return array(
+                "abbreviation" => $platform->getAbbreviation(),
+              );
+          }, $this->getPlatforms()->toArray()),
+          "summary" => $this->getSummary(),
+        );
     }
 }

@@ -3,6 +3,8 @@ import '../styles/app.scss'
 import '@popperjs/core'
 import 'bootstrap'
 import ReactDOM from 'react-dom'
+import { Game, search } from './api/games'
+import SearchPage from './pages/SearchPage'
 
 const searchForm: HTMLFormElement | null = document.getElementById(
   'searchForm'
@@ -15,7 +17,12 @@ searchForm?.addEventListener('submit', (e: Event) => {
   e.preventDefault()
 })
 
-searchInput?.addEventListener('input', () => {
+searchInput?.addEventListener('input', async () => {
   const input: string = searchInput?.value
-  ReactDOM.render(<h1>{input}</h1>, document.getElementById('base'))
+
+  const result = await search(input)
+  const games: Game[] = result.data as Game[]
+
+  ReactDOM.render(<SearchPage games={games} query={input} />,
+    document.getElementById('base'))
 })
