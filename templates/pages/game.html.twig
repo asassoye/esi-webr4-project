@@ -6,7 +6,7 @@
 	<div class="row" style="padding: 2rem;" id="base">
 		<aside class="col-3">
 			<img class="img-fluid cover-image"
-			     src="https://images.igdb.com/igdb/image/upload/t_original/{{ game.cover.url }}.jpg"/>
+			     src="https://images.igdb.com/igdb/image/upload/t_original/{{ game.cover.url }}.jpg" />
 			<div class="rating-box">
 				<div class="rating">
 					<h3>Member ratings</h3>
@@ -84,7 +84,7 @@
 					<div class="carousel-inner">
 						{% for video in game.videos %}
 							<div class="carousel-item {% if video == game.videos[0] %}active{% endif %}">
-								<iframe width="100%" height="500" src="https://www.youtube.com/embed/{{ video.url }}"
+								<iframe width="100%" height="500" src="https://www.youtube-nocookie.com/embed/{{ video.url }}"
 								        title="YouTube video player" frameborder="0"
 								        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 								        allowfullscreen></iframe>

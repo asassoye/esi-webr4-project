@@ -3,6 +3,7 @@ import axios, { AxiosRequestConfig } from 'axios'
 axios.defaults.baseURL = 'http://localhost:9696'
 
 interface Game {
+  'id': number
   'slug': string,
   'cover': {
     'url': string

@@ -25,7 +25,7 @@ class GameRepository extends ServiceEntityRepository
           ->where('g.name LIKE :query')
           ->setParameter('query', '%'.$query.'%')
           ->orderBy('g.releaseDate', 'DESC')
-          ->setMaxResults(100);
+          ->setMaxResults(10);
 
         $query = $qb->getQuery();
 

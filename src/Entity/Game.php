@@ -7,6 +7,7 @@ use DateTimeInterface;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use JetBrains\PhpStorm\ArrayShape;
 use JsonSerializable;
 
 /**
@@ -483,13 +484,22 @@ class Game implements JsonSerializable
         return $this;
     }
 
-    public function jsonSerialize(): array
+    #[ArrayShape([
+      "id" => "int",
+      "name" => "string",
+      "slug" => "string",
+      "cover" => "array",
+      "releaseDate" => "string",
+      "platforms" => "array|array[]",
+      "summary" => "null|string",
+    ])] public function jsonSerialize(): array
     {
         return array(
+          "id" => $this->getId(),
           "name" => $this->getName(),
           "slug" => $this->getSlug(),
           "cover" => array(
-            "url" => $this->getCover()->getUrl(),
+            "url" => $this->getCover()?->getUrl(),
           ),
           "releaseDate" => $this->getReleaseDate()->format(DateTimeInterface::ATOM),
           "platforms" => array_map(function ($platform) {

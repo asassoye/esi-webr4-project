@@ -14,7 +14,7 @@ const SearchPage = (props: Props) => {
     <Fragment>
       <h3>{title}</h3>
       {props.games && props.games.map(
-        (game: Game) => <GameCard key={game.slug} game={game} />)}
+        (game: Game) => <GameCard key={game.id} game={game} />)}
     </Fragment>
 
   )
