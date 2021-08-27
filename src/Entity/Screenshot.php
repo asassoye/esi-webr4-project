@@ -4,11 +4,12 @@ namespace App\Entity;
 
 use App\Repository\ScreenshotRepository;
 use Doctrine\ORM\Mapping as ORM;
+use JsonSerializable;
 
 /**
  * @ORM\Entity(repositoryClass=ScreenshotRepository::class)
  */
-class Screenshot
+class Screenshot implements JsonSerializable
 {
     /**
      * @ORM\Id
@@ -88,5 +89,14 @@ class Screenshot
         $this->game = $game;
 
         return $this;
+    }
+
+    public function jsonSerialize(): array
+    {
+        return array(
+          "id" => $this->getId(),
+          "url" => $this->getUrl(),
+          "game" => $this->getGame()?->getSlug(),
+        );
     }
 }

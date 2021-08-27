@@ -18,4 +18,14 @@ class ScreenshotRepository extends ServiceEntityRepository
     {
         parent::__construct($registry, Screenshot::class);
     }
+
+    public function getRandomScreenshots(int $max) {
+        $qb = $this->createQueryBuilder("s")
+          ->orderBy('RAND()')
+          ->setMaxResults($max);
+
+        $query = $qb->getQuery();
+
+        return $query->execute();
+    }
 }

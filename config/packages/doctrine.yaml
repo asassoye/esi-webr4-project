@@ -13,6 +13,7 @@ doctrine:
       string_functions:
         YEAR: DoctrineExtensions\Query\Mysql\Year
         NOW: DoctrineExtensions\Query\Mysql\Now
+        RAND: DoctrineExtensions\Query\Mysql\Rand
     mappings:
       App:
         is_bundle: false
