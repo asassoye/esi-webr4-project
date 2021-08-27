@@ -1018,12 +1018,6 @@
     "rating": 11
   },
   {
-    "id": 1427,
-    "category": 1,
-    "rating": 11,
-    "synopsis": "Content Descriptors: Intense Violence, Blood, Strong Language, Strong Sexual Content, Partial Nudity, Use of Drugs and Alcohol  Other: Includes online features that may expose players to unrated user-generated content (Windows PC, Xbox 360, PlayStation 3)"
-  },
-  {
     "id": 1484,
     "category": 1,
     "rating": 10
@@ -1752,6 +1746,11 @@
     "synopsis": "This is a third-person shooter in which players assume the role of military soldiers defending cities from giant insects and aliens. Players use lasers, machine guns, turrets, and rockets launchers to destroy alien robots, spacecraft and creatures (e.g., ants, spiders, dragons). Players can also use jet packs, tanks, and helicopters to fight enemies in frenetic combat. Battles are accompanied by realistic gunfire and large explosions. Large splashes of red blood frequently appear when creatures are hit and when human characters are attacked."
   },
   {
+    "id": 3018,
+    "category": 1,
+    "rating": 10
+  },
+  {
     "id": 3024,
     "category": 1,
     "rating": 10
@@ -2149,11 +2148,6 @@
     "rating": 11
   },
   {
-    "id": 3797,
-    "category": 1,
-    "rating": 11
-  },
-  {
     "id": 3847,
     "category": 1,
     "rating": 10
@@ -2200,11 +2194,6 @@
     "id": 3891,
     "category": 1,
     "rating": 11
-  },
-  {
-    "id": 3897,
-    "category": 1,
-    "rating": 8
   },
   {
     "id": 3899,
@@ -3373,6 +3362,12 @@
     "rating": 4
   },
   {
+    "id": 5360,
+    "category": 1,
+    "rating": 11,
+    "synopsis": "This is a third-person shooter in which players assume the role of Marcus Fenix, a soldier on a mission to save his father and battle an alien threat. Players use machine guns, shotguns, sniper rifles, and grenades to kill aliens and human soldiers in frenetic combat. Battles are highlighted by realistic gunfire, screams of pain, explosions, and large splashes of blood; some attacks result in dismemberment or decapitations that leave body parts and bloodstains on the ground. Finishing moves on weakened enemies depict more intense acts of violence: players can stomp on an enemy's head until it breaks apart; use a chainsaw-like weapon (i.e., Lancer) to slice creatures in half; and rip off an enemy's arm to use as a weapon. Language such as \"f**k,\" \"sh*t,\" and \"a*shole\" can be heard in the dialogue."
+  },
+  {
     "id": 5367,
     "category": 2,
     "rating": 4
@@ -3804,12 +3799,6 @@
     "id": 5913,
     "category": 2,
     "rating": 1
-  },
-  {
-    "id": 5932,
-    "category": 1,
-    "rating": 11,
-    "synopsis": "This is a first-person shooter in which players assume the role of a man (Ajay Ghale) returning to his ancestral home to spread his mother's ashes. Players engage in a variety of frenetic combat missions and use machine guns, pistols, shotguns, knives, and explosives to kill enemy fighters amid mountainous environments. Players can also perform stealth attacks (i.e., sneaking up on enemies and slitting throats/stabbing chests). Battles are highlighted by screams of pain, realistic gunfire, and large blood-splatter effects. Some levels/cutscenes depict further violence: characters tortured via electrocution, stabbed repeatedly in the neck, executed with bladed weapons. The game includes some sexual/suggestive material, including dialogue referencing sexual activity (e.g., “The army forces us to take drugs and then gives us more if we do sex for wealthy men”; “Some of the people in my village, the army forced them to become prostitutes”; “I think sex is fun;” “[I] was with this girl and she was into some crazy S&M. . .”). In one battle sequence, a man's genitals are briefly exposed while falling/being attacked. During the course of the game, two characters are depicted smoking marijuana; players' character also consumes the drug, resulting in blurred-screen effects and occasional hallucinations. The words “f**k,” “sh*t,” and “a*shole” appear in the dialogue."
   },
   {
     "id": 5946,
@@ -6746,12 +6735,6 @@
     "synopsis": "The content of this game is suitable for persons aged 16 years and over only.\r\nIt contains: Realistic looking violence -"
   },
   {
-    "id": 10271,
-    "category": 2,
-    "rating": 2,
-    "synopsis": "The content of this game is suitable for persons aged 7 years and over only.\r\nIt contains: Non realistic looking violence towards fantasy characters - Violence that is set in a cartoon, slapstick or child like setting that could be upsetting to very young children - Pictures or sounds likely to be scary to young children"
-  },
-  {
     "id": 10273,
     "category": 1,
     "rating": 10,
@@ -7300,12 +7283,6 @@
     "rating": 8
   },
   {
-    "id": 11241,
-    "category": 2,
-    "rating": 2,
-    "synopsis": "The content of this game is suitable for persons aged 7 years and over only.\r\nIt contains: Non realistic looking violence towards human characters"
-  },
-  {
     "id": 11246,
     "category": 1,
     "rating": 9,
@@ -7332,12 +7309,6 @@
     "id": 11261,
     "category": 2,
     "rating": 3
-  },
-  {
-    "id": 11277,
-    "category": 2,
-    "rating": 4,
-    "synopsis": "The content of this game is suitable for persons aged 16 years and over only.\r\nIt contains: Realistic looking violence."
   },
   {
     "id": 11281,
@@ -7470,22 +7441,10 @@
     "synopsis": "The content of this game is suitable for all persons.\r\nIt contains: This game allows the player to interact with other players ONLINE"
   },
   {
-    "id": 11387,
-    "category": 2,
-    "rating": 4,
-    "synopsis": "The content of this game is suitable for persons aged 16 years and over only.\r\nIt contains: Realistic looking violence\r\nThis game allows the player to interact with other players ONLINE."
-  },
-  {
     "id": 11395,
     "category": 1,
     "rating": 11,
     "synopsis": "Crysis Warhead  is a first-person shooter in which players assume the role of Sergeant \"Psycho\" Sykes, a special forces operative involved in a combat mission against Korean military forces and extraterrestrials. Combat can be frenetic with repeated screen shakes and realistic sound effects (e.g., gunfire, explosions, demolition) during firefights. Players use a variety of weapons (guns, grenade launchers, freeze rays) as well as 'special powers' such as invisibility, speed burst, and super strength – made accessible through the player's nanotech combat suit. Blood pools are depicted when soldiers are shot and killed, staining both the environment and the character's visor. Profanity (e.g., \"f*ck\" and \"sh*t\") can be heard during gameplay and cutscenes. Online Interactions Not Rated by the ESRB."
-  },
-  {
-    "id": 11401,
-    "category": 2,
-    "rating": 5,
-    "synopsis": "The content of this game is suitable for persons aged 18 years and over only.\r\nIt contains: Extreme violence - Multiple, motiveless killing - Violence towards defenceless people - Glamorisation of drugs - Strong language\r\nThis game allows the player to interact with other players ONLINE"
   },
   {
     "id": 11402,
@@ -7516,12 +7475,6 @@
     "category": 1,
     "rating": 10,
     "synopsis": "Players use swords, axes and hammers to attack human soldiers and fantasy creatures in this action role-playing game. Combat involves \"melee-style\" attacks where characters' axe swipes and sword strikes occur at close-range, are frenetic, and are met with cries of pain. Players can also command several \"tag-along\" gremlin-like minions to attack enemies (e.g., carnivorous pandas, giant spiders, elves, Roman soldiers, etc.), break objects, and open pathways that allow the Overlord to progress. During one sequence, players use a lightning-strike attack to either kill villagers or subdue them. Players' Minions can also be led to consume liquids (a strong implication of alcohol), causing them to belch, urinate, or vomit on the ground. There is also a sequence in which players need to \"fool the drunken villager.\" The game contains some suggestive material: There are depictions of fairy creatures with flowers that barely cover their exaggerated-sized breasts; reward cut-scenes strongly imply that the central character has sex with his mistress (e.g., the camera shakes; pleasurable moaning sounds); and dialogue contains suggestive content and innuendo (e.g.,\"They said I slept with the Senators daughter… I never! … I slept with his wife!\" and \"Prepare yourself for a very mmmmm spiritual experience\")."
-  },
-  {
-    "id": 11428,
-    "category": 2,
-    "rating": 4,
-    "synopsis": "The content of this game is suitable for persons aged 16 years and over only.\r\nIt contains: Realistic looking violence -\r\nThis game allows the player to interact with other players ONLINE."
   },
   {
     "id": 11430,
@@ -7676,12 +7629,6 @@
     "synopsis": "The content of this game is suitable for persons aged 16 years and over only.\r\nIt contains: Realistic looking violence - "
   },
   {
-    "id": 11674,
-    "category": 2,
-    "rating": 3,
-    "synopsis": "The content of this game is suitable for persons aged 12 years and over only.\r\nIt contains: Non realistic looking violence towards human characters"
-  },
-  {
     "id": 11675,
     "category": 2,
     "rating": 3
@@ -7766,12 +7713,6 @@
     "synopsis": "The content of this game is suitable for all persons."
   },
   {
-    "id": 11752,
-    "category": 2,
-    "rating": 5,
-    "synopsis": "The content of this game is suitable for persons aged 18 years and over only.\r\nIt contains: Extreme violence - Strong language."
-  },
-  {
     "id": 11759,
     "category": 1,
     "rating": 11
@@ -7823,12 +7764,6 @@
     "id": 11788,
     "category": 2,
     "rating": 3
-  },
-  {
-    "id": 11793,
-    "category": 2,
-    "rating": 5,
-    "synopsis": "The content of this game is suitable for persons aged 18 years and over only.\r\nIt contains: Extreme violence - Strong language\r\nThis game allows the player to interact with other players ONLINE."
   },
   {
     "id": 11800,
@@ -7927,12 +7862,6 @@
     "rating": 3
   },
   {
-    "id": 11959,
-    "category": 2,
-    "rating": 5,
-    "synopsis": "The content of this game is suitable for persons aged 18 years and over only.\r\nIt contains: Extreme violence - Violence towards defenceless people - Strong language\r\nThis game allows the player to interact with other players ONLINE."
-  },
-  {
     "id": 11961,
     "category": 2,
     "rating": 2
@@ -7947,12 +7876,6 @@
     "category": 2,
     "rating": 5,
     "synopsis": "The content of this game is suitable for persons aged 18 years and over only.\r\nIt contains: Extreme violence - Multiple, motiveless killing - Strong language"
-  },
-  {
-    "id": 12005,
-    "category": 2,
-    "rating": 3,
-    "synopsis": "The content of this game is suitable for persons aged 12 years and over only.\r\nIt contains: Realistic looking violence - Mild bad language."
   },
   {
     "id": 12021,
@@ -8085,12 +8008,6 @@
     "id": 12202,
     "category": 2,
     "rating": 3
-  },
-  {
-    "id": 12228,
-    "category": 2,
-    "rating": 5,
-    "synopsis": "The content of this game is suitable for persons aged 18 years and over only.\r\nIt contains: Extreme violence - Multiple, motiveless killing - Violence towards defenceless people - Strong language\r\nThis game allows the player to interact with other players ONLINE"
   },
   {
     "id": 12229,
@@ -8282,12 +8199,6 @@
     "synopsis": "The content of this game is suitable for persons aged 12 years and over only.\r\nIt contains: Mild bad language\r\nGenre: Music / Dance"
   },
   {
-    "id": 12432,
-    "category": 2,
-    "rating": 4,
-    "synopsis": "The content of this game is suitable for persons aged 16 years and over only.\r\nIt contains: Realistic looking violence."
-  },
-  {
     "id": 12435,
     "category": 1,
     "rating": 8
@@ -8417,11 +8328,6 @@
     "id": 12551,
     "category": 2,
     "rating": 5
-  },
-  {
-    "id": 12554,
-    "category": 1,
-    "rating": 10
   },
   {
     "id": 12586,
@@ -8555,18 +8461,6 @@
     "category": 2,
     "rating": 3,
     "synopsis": "The content of this game is suitable for persons aged 12 years and over only.\r\n\r\nIt contains: Realistic looking violence towards non human looking characters - Non realistic looking violence towards human characters - Mild bad language"
-  },
-  {
-    "id": 12730,
-    "category": 1,
-    "rating": 10,
-    "synopsis": "This is a fighting game in which players engage in one-on-one combat with a large cast of human, animal, and supernatural characters. Players use martial arts punches, kicks, and throws to drain their opponents' life meters. Some characters supplement traditional hand-to-hand combat with weapons (guns, bats, swords, rocket launchers, etc.); other characters can summon more fantastical attacks, including laser beams that shoot from their eyes; chainsaws attached to arms; a flatulence attack stronger than the average bear's; and an assortment of \"Drunken\" attacks (\"Drunken Tiger Kick, \"Drunken Master Walk,\" \"Drunken Rapid Fists,\" \"Drunken Fox Combination,\" etc.). It is probably no coincidence that the fighter who performs the Drunken Master Walk will wobble, lurch, and lose his balance as he fights.\r\n\r\nPlayers can access a wide range of customizable accessories for their characters; some of these items include outfits that expose portions of female fighters' lower breasts and buttocks. During a few cutscenes (where graphics tend to be enhanced), the camera briefly pans on their thighs, breasts, and buttocks; and during battle, when a female character is struck by an attack, her breasts will sometimes bounce. (There are no comparable physics applied to male characters.) The majority of cutscenes (including those above) introduce elements of irreverence and comic relief, though one sketch might be difficult to digest: pizza, laxatives—flatulence. The dialogue contains the expletives \"a*s,\" \"bastard,\" \"damn,\" and \"b*tch\"; it may also contain a line expressed by one of its feisty female characters—Asuka Kazama: \"If you're not gonna take me seriously, then I'll just have to give you a serious a*s-kicking.\""
-  },
-  {
-    "id": 12731,
-    "category": 2,
-    "rating": 4,
-    "synopsis": "The content of this game is suitable for persons aged 16 years and over only.\r\nIt contains: Realistic looking violence\r\n\r\nThis game allows the player to interact with other players ONLINE"
   },
   {
     "id": 12732,
@@ -8723,12 +8617,6 @@
     "synopsis": "The content of this game is suitable for persons aged 12 years and over only.\r\nIt contains: Non realistic looking violence towards human characters - Sexual images and/or sexual innuendo - Mild bad language - Violence causing minor injury only - Images or sounds likely to be horrifying"
   },
   {
-    "id": 12935,
-    "category": 2,
-    "rating": 5,
-    "synopsis": "The content of this game is suitable for persons aged 18 years and over only.\r\nIt contains: Extreme violence - Multiple, motiveless killing - Violence towards defenceless people - Glamorisation of drugs - Strong language - Content that teaches or encourages gambling\r\nThis game allows the player to interact with other players ONLINE"
-  },
-  {
     "id": 12941,
     "category": 1,
     "rating": 10,
@@ -8849,12 +8737,6 @@
     "category": 1,
     "rating": 10,
     "synopsis": "\tThis is a first-person shooter in which players assume the role of a super soldier (Locke) searching for a missing character. Players use pistols, machine guns, grenade launchers, and futuristic weapons to kill alien and human enemies in frenetic combat. Battles are highlighted by realistic gunfire, explosions, and occasional blood-splatter effects. Characters can also use “assassinations” to kill characters by snapping their necks, or by stabbing them with bladed weapons. The word “a*s” appears in the dialogue, as well as occasional taunts/insults (e.g., “I have copulated...with your genetic progenitors!”; \"Your father was a filthy colo and your mother was a hole in the wall!\")."
-  },
-  {
-    "id": 13102,
-    "category": 2,
-    "rating": 4,
-    "synopsis": "The content of this game is suitable for persons aged 16 years and over only.\r\nIt contains: Realistic looking violence -\r\nThis game allows the player to interact with other players ONLINE"
   },
   {
     "id": 13103,
@@ -9250,6 +9132,11 @@
     "rating": 11
   },
   {
+    "id": 13371,
+    "category": 1,
+    "rating": 10
+  },
+  {
     "id": 13373,
     "category": 1,
     "rating": 10
@@ -9588,12 +9475,6 @@
     "category": 1,
     "rating": 10,
     "synopsis": "-"
-  },
-  {
-    "id": 13956,
-    "category": 2,
-    "rating": 3,
-    "synopsis": "The content of this game is suitable for persons aged 12 years and over only.\r\nIt contains: Realistic looking violence towards non human looking characters - Mild bad language."
   },
   {
     "id": 13962,
@@ -10107,11 +9988,6 @@
     "rating": 3
   },
   {
-    "id": 14930,
-    "category": 1,
-    "rating": 10
-  },
-  {
     "id": 14932,
     "category": 1,
     "rating": 9
@@ -10574,12 +10450,6 @@
     "synopsis": "In this role-playing adventure game, players take on the role of a young prince or princess in the fantasy kingdom of Albion. While partaking in quests to gain experience and skills, players affect their moral standing by choosing to do good deeds or bad ones, thereby \"leveling up\" their customized character in divergent ways. Many quests require the use of magic, weapons, and hand-to-hand combat to defeat enemy soldiers and creatures. Blood spray is depicted when enemies are slashed and shot during battle, and in slow-motion finishing moves. Players can consume alcohol and obtain a drunken state, resulting in a screen-blurring effect and dialogue that is distorted/altered. Players can choose to engage in sexual relations (some unprotected) with males, females, or groups of characters. Although sex acts are not shown, sexual moaning sounds are heard in the background. Sexual statistics are kept by the game, including the number of sexual encounters, the highest number of group sex partners, and a list of STDs each player has contracted. The words \"sh*t,\" \"b*tch,\" and \"a*s\" can be heard in dialogue."
   },
   {
-    "id": 15956,
-    "category": 2,
-    "rating": 4,
-    "synopsis": "The content of this game is suitable for persons aged 16 years and over only.\r\nIt contains: Realistic looking violence\r\nThis game allows the player to interact with other players ONLINE"
-  },
-  {
     "id": 15966,
     "category": 1,
     "rating": 8,
@@ -10658,6 +10528,11 @@
     "synopsis": "The content of this game is suitable for persons aged 18 years and over only.\r\nIt contains: Violence towards defenceless people - Realistic looking violence."
   },
   {
+    "id": 16043,
+    "category": 1,
+    "rating": 10
+  },
+  {
     "id": 16057,
     "category": 1,
     "rating": 11
@@ -10673,12 +10548,6 @@
     "category": 1,
     "rating": 11,
     "synopsis": "This is a role-playing game in which players assume the role of a high-school student who enters an alternate world and uses special powers to change the hearts of people in the real world. As players explore themed areas of the “Metaverse,” they engage in turn-based combat against fantastical creatures (e.g., demons, evil spirits, shadow creatures). Characters use blades, pipes, firearms, and Personas (i.e., creatures that enable magical attacks) to defeat enemies; battles are highlighted by light effects, impact sounds, and cries of pain. Some cutscenes depict characters ripping masks off their faces as blood sprays. One cutscene depicts a man shooting another character in the head at close range; blood is shown pooling on the floor and splattering the victim's clothes. Several female monsters/Personas are depicted with exposed breasts, and a handful of creatures have phallic-shaped heads, torsos, or appendages. Various Personas (e.g., Succubus, Incubus) have sexual characteristics that are described in text (e.g., “They visit sleeping men/women and have sexual intercourse with them”); dialogue also includes sexual references (e.g., “Apparently he's been forcing young idols and other girls to have sex with him to move up in the ranks”). Drug smuggling for the mafia is briefly discussed during a side quest (e.g., “Like illegal drugs…? Maybe they made Iida smuggle drugs for them.”). The words “f**k,” “sh*t,” and “a*shole” appear in the dialogue."
-  },
-  {
-    "id": 16104,
-    "category": 2,
-    "rating": 5,
-    "synopsis": "The content of this game is suitable for persons aged 18 years and over only.\r\n\r\nIt contains: Extreme violence - Violence towards defenceless people - Glamorisation of drugs - Strong language"
   },
   {
     "id": 16105,
@@ -10701,12 +10570,6 @@
     "id": 16129,
     "category": 1,
     "rating": 9
-  },
-  {
-    "id": 16146,
-    "category": 1,
-    "rating": 10,
-    "synopsis": "This is a puzzle-adventure game in which players help a priest save the guests of a mysterious mansion. From a 3/4-overhead perspective, players traverse each room to discover the means to save guests and unlock additional powers (e.g., time travel, lock picking, second sight). A handful of sequences depict instances of violence: a woman hung inside a bell tower; a man incinerated in a furnace; a man shot with a rifle. Characters emit splashes of blood when injured, and blood is occasionally depicted pooling under dying characters. The game includes some alcohol references (e.g., “Huh…. maybe I've had too many!”; “Someone's been having a sly tipple on the job!”; A character named “Tequila Belle”), and one character appears drunk as he consumes alcohol. The word “bastard” appears in the dialogue. "
   },
   {
     "id": 16147,
@@ -11462,12 +11325,6 @@
     "synopsis": "The content of this game is suitable for persons aged 16 years and over only.\r\nIt contains: Realistic looking violence"
   },
   {
-    "id": 19882,
-    "category": 2,
-    "rating": 5,
-    "synopsis": "he content of this game is suitable for persons aged 18 years and over only.\r\nIt contains: Extreme violence - Violence towards defenceless people - Strong language - Content that teaches or encourages gambling."
-  },
-  {
     "id": 19888,
     "category": 1,
     "rating": 9,
@@ -11495,12 +11352,6 @@
     "category": 1,
     "rating": 11,
     "synopsis": "This is a first-person shooter in which players are members of an elite military unit whose mission is to quell an intergalactic threat and disarm a stockpile of seized nuclear weapons. Combat is frequent and fast-paced, as players use a variety of firearms (rifles, machine guns, and shotguns) and explosives (grenades and rocket launcher) to kill enemy soldiers. Red blood spray emits from enemy soldiers when shot, and weapons such as sniper rifles and shotguns can be used to decapitate them. Post-mortem damage can be inflicted on soldiers' bodies, resulting in pools of blood on the ground. During one cutscene, a gravely wounded character retrieves a pistol and shoots himself in the head. The game contains strong profanity (e.g., \"f*ck,\" \"sh*t,\" \"a*shole\") in the dialogue."
-  },
-  {
-    "id": 19917,
-    "category": 2,
-    "rating": 5,
-    "synopsis": "The content of this game is suitable for persons aged 18 years and over only.\r\nIt contains: Extreme violence - Multiple, motiveless killing - Violence towards defenceless people - Strong language\r\nThis game allows the player to interact with other players ONLINE"
   },
   {
     "id": 19918,
@@ -11585,12 +11436,6 @@
     "id": 20062,
     "category": 1,
     "rating": 8
-  },
-  {
-    "id": 20120,
-    "category": 2,
-    "rating": 3,
-    "synopsis": "The content of this game is suitable for persons aged 12 years and over only.\r\nIt contains: Non realistic looking violence towards human characters - Violence in a sporting context - Sexual images and/or sexual innuendo - Mild bad language\r\nThis game allows the player to interact with other players ONLINE"
   },
   {
     "id": 20125,
@@ -11820,12 +11665,6 @@
     "synopsis": "The content of this game is suitable for persons aged 16 years and over only.\r\nIt contains: Realistic looking violence - Strong language\r\nThis game allows the player to interact with other players ONLINE"
   },
   {
-    "id": 20994,
-    "category": 2,
-    "rating": 3,
-    "synopsis": "The content of this game is suitable for persons aged 12 years and over only.\r\nIt contains: Non realistic looking violence towards human characters"
-  },
-  {
     "id": 21021,
     "category": 1,
     "rating": 10,
@@ -11946,12 +11785,6 @@
     "id": 21197,
     "category": 1,
     "rating": 9
-  },
-  {
-    "id": 21217,
-    "category": 2,
-    "rating": 5,
-    "synopsis": "The content of this game is suitable for persons aged 18 years and over only.\r\nIt contains: Extreme violence - Multiple, motiveless killing - Strong language\r\nThis game allows the player to interact with other players ONLINE."
   },
   {
     "id": 21233,
@@ -12627,12 +12460,6 @@
     "synopsis": "This game was rated PEGI 7 for pictures or sounds likely to be scary to young children. It is not suitable for persons under 7 years of age."
   },
   {
-    "id": 22468,
-    "category": 2,
-    "rating": 3,
-    "synopsis": "The content of this game is suitable for persons aged 12 years and over only.\r\nIt contains: Mild bad language\r\nThis game allows the player to interact with other players ONLINE"
-  },
-  {
     "id": 22470,
     "category": 1,
     "rating": 9
@@ -13092,11 +12919,6 @@
     "id": 23208,
     "category": 1,
     "rating": 10
-  },
-  {
-    "id": 23224,
-    "category": 1,
-    "rating": 8
   },
   {
     "id": 23227,
@@ -13700,11 +13522,6 @@
     "synopsis": "This game was rated PEGI 7 for violence that lacks any apparent harm or injury to fantasy or mythical beings and creatures. It is not suitable for persons under 7 years of age."
   },
   {
-    "id": 24529,
-    "category": 1,
-    "rating": 10
-  },
-  {
     "id": 24558,
     "category": 1,
     "rating": 8
@@ -13976,12 +13793,6 @@
     "category": 2,
     "rating": 4,
     "synopsis": "The content of this game is suitable for persons aged 16 years and over only.\r\nIt contains: Realistic looking violence - "
-  },
-  {
-    "id": 25226,
-    "category": 2,
-    "rating": 2,
-    "synopsis": "The content of this game is suitable for persons aged 7 years and over only.\r\nIt contains: Violence that is not shown but is implied\r\nThis game allows the player to interact with other players ONLINE"
   },
   {
     "id": 25227,
@@ -15877,6 +15688,11 @@
     "synopsis": "This game has received a PEGI 16 because it features sustained depictions of violence towards human characters and strong violence. Not suitable for persons under 16 years of age."
   },
   {
+    "id": 28926,
+    "category": 1,
+    "rating": 10
+  },
+  {
     "id": 28940,
     "category": 2,
     "rating": 3
@@ -15936,6 +15752,11 @@
     "rating": 5
   },
   {
+    "id": 29036,
+    "category": 1,
+    "rating": 6
+  },
+  {
     "id": 29043,
     "category": 2,
     "rating": 2,
@@ -15950,6 +15771,11 @@
     "id": 29061,
     "category": 2,
     "rating": 5
+  },
+  {
+    "id": 29084,
+    "category": 1,
+    "rating": 6
   },
   {
     "id": 29087,
@@ -16168,12 +15994,6 @@
     "id": 29685,
     "category": 2,
     "rating": 2
-  },
-  {
-    "id": 29709,
-    "category": 2,
-    "rating": 3,
-    "synopsis": "The content of this game is suitable for persons aged 12 years and over only.\r\nIt contains: \r\n•Non realistic looking violence towards characters which although human are not very detailed\r\n•Moving images which teaches games of chance"
   },
   {
     "id": 29715,
@@ -16974,6 +16794,12 @@
     "rating": 11
   },
   {
+    "id": 31349,
+    "category": 1,
+    "rating": 8,
+    "synopsis": "This is a sports simulation game in which players select and manage real soccer teams from clubs and leagues around the world. Players make managerial decisions that include negotiating contracts, handling staff, and developing the team's tactics and strategies."
+  },
+  {
     "id": 31354,
     "category": 1,
     "rating": 11,
@@ -17047,12 +16873,6 @@
     "category": 1,
     "rating": 11,
     "synopsis": "This is an action-simulation game in which players control a shark through story-based hunting campaigns and evolution cycles. From a third-person perspective, players explore oceans, eat sea creatures, and attack boats and humans. The players' shark attacks by diving, biting, and/or slashing its tail at prey, resulting in large splatters/mists of blood. Some areas prompt players to kill a certain number of beachgoers or hunters in order to progress; other levels contain one-on-one battles against rival sharks. Cutscenes also depict intense acts of violence: a shark leaping onto a boat to bite off a man's arm; a shark biting off a man's leg; a bloodied man stabbing a shark while being chewed on. Voiceovers/dialogue contains some mature humor (jokes about defecation, urination), including sexual material (e.g., “My grandfather called a vagina 'the little man in a canoe'\"; “...they enjoy a steady diet of hypodermic needles and used pregnancy tests”; “The nettle's tentacles can be quite alluring to curious predators… or jellyfish fetishists.”). Text includes references to drugs such as heroin, cocaine, marijuana, and fentanyl. The game contains several partially bleeped/censored words such as \"f**k\" and \"sh*t\"; there are also words in Cajun French that translate to \"f**k you\" and \"sh*t\" (e.g., \"p*c k*e toi,\" \"m*rde\")."
-  },
-  {
-    "id": 31583,
-    "category": 1,
-    "rating": 11,
-    "synopsis": "This is a stealth action game in which players control a band of ninja and samurai heroes in Edo-era Japan. From a 3/4-overhead perspective, players infiltrate enemy strongholds and villages to complete mission objectives, including killing human targets. \r\n\r\nPlayers use swords, shurikens, and explosives to kill enemies. Blood is frequently depicted as enemies are slashed and stabbed. A handful of sequences depict characters committing seppuku (ritual suicide) and getting beheaded; large blood-splatter effects and pools of blood are depicted near severed heads and corpses."
   },
   {
     "id": 31606,
@@ -17725,6 +17545,12 @@
     "synopsis": "No Rating Summary"
   },
   {
+    "id": 31870,
+    "category": 2,
+    "rating": 1,
+    "synopsis": "Football management simulation game in which the player makes key decisions from scouting and transfers to training, team selection and tactics."
+  },
+  {
     "id": 31871,
     "category": 1,
     "rating": 11,
@@ -18037,12 +17863,6 @@
     "synopsis": "Play as a soldier in the Russian army during the battle for Stalingrad in World War 2."
   },
   {
-    "id": 31988,
-    "category": 1,
-    "rating": 11,
-    "synopsis": "This is an \"open-world\" action game in which players assume the role of Vito Scaletta, an ex-convict and World War II veteran who becomes involved in a crime family. The game depicts a 1940s and 50s urban landscape, which includes a criminal underworld that the protagonist must navigate through in order to progress. Players complete various missions that either advance the main storyline or award the player with in-game currency and connections.\r\n\r\nMany of the missions require players to engage in criminal activity: stealing cars, robbing gas stations, running drugs, killing rival gang members. Players use pistols, Tommy guns, shotguns, and knives to kill enemies and occasionally civilians. Blood often spurts out of injured characters, stains the walls/ground, and occasionally sprays onto the screen. Some cutscenes depict more intense instances of violence, including close-range executions, stabbing, and throat slitting. Within the free-roaming context (i.e., not missions), players have the ability to attack police officers and pedestrians on the streets, in bars, shops, etc; however, these acts are not directly rewarded, preventing players from maintaining a low profile from the police.\r\n\r\nDuring the course of the game, players can encounter some sexually suggestive material: brothels with prostitutes in revealing lingerie; a gentleman's club with female dancers; and Playboy magazine pin-ups hidden in certain areas of the game (topless images, bare buttocks). There is also a gallery accessible from the main menu, where players can view all of their collected pin ups. One cutscene briefly depicts the top of a woman's head as she performs fellatio on a man—the camera cuts away to other patrons at the table, the man's reactions.\r\n\r\nAlcohol and drug use are also depicted in the game. Players' character can order alcohol at a bar and drink until his vision becomes blurry; players are able to drive their cars in this impaired state. Characters are also depicted buying and selling drugs in a cutscene montage. Although the protagonist is never depicted using drugs, a few ancillary characters sometimes can be seen smoking marijuana or sampling cocaine. Language such as \"f**k,\" \"sh*t,\" and \"\"n**ger\" can be heard in the dialogue."
-  },
-  {
     "id": 31989,
     "category": 2,
     "rating": 5,
@@ -18301,18 +18121,6 @@
     "synopsis": "No Rating Summary"
   },
   {
-    "id": 32051,
-    "category": 2,
-    "rating": 1,
-    "synopsis": "No Rating Summary"
-  },
-  {
-    "id": 32052,
-    "category": 1,
-    "rating": 8,
-    "synopsis": "No Rating Summary"
-  },
-  {
     "id": 32053,
     "category": 1,
     "rating": 10,
@@ -18417,12 +18225,6 @@
     "id": 32121,
     "category": 2,
     "rating": 4,
-    "synopsis": "No Rating Summary"
-  },
-  {
-    "id": 32122,
-    "category": 1,
-    "rating": 10,
     "synopsis": "No Rating Summary"
   },
   {
@@ -20323,12 +20125,6 @@
     "synopsis": "The content of this game is suitable for persons aged 16 years and over only. It contains: Encouragement of the use of alcohol/tobacco"
   },
   {
-    "id": 34043,
-    "category": 2,
-    "rating": 3,
-    "synopsis": "The content of this game is suitable for persons aged 12 years and over only. It contains: Non realistic looking violence towards fantasy characters - Realistic looking violence."
-  },
-  {
     "id": 34047,
     "category": 2,
     "rating": 2,
@@ -20405,6 +20201,11 @@
     "category": 2,
     "rating": 5,
     "synopsis": "The content of this game is suitable for persons aged 18 years and over only. It contains: Extreme violence - Violence towards defenceless people"
+  },
+  {
+    "id": 34125,
+    "category": 1,
+    "rating": 11
   },
   {
     "id": 34182,
@@ -20530,6 +20331,17 @@
     "category": 2,
     "rating": 3,
     "synopsis": "The content of this game is suitable for persons aged 12 years and over only. It contains: Non realistic looking violence towards human characters"
+  },
+  {
+    "id": 34514,
+    "category": 1,
+    "rating": 10
+  },
+  {
+    "id": 34515,
+    "category": 2,
+    "rating": 4,
+    "synopsis": "Real time strategy game in which you command various historical civilisations and fight against others."
   },
   {
     "id": 34523,
@@ -20844,6 +20656,11 @@
   },
   {
     "id": 35387,
+    "category": 1,
+    "rating": 10
+  },
+  {
+    "id": 35396,
     "category": 1,
     "rating": 10
   },
@@ -21178,12 +20995,6 @@
     "id": 36221,
     "category": 1,
     "rating": 10
-  },
-  {
-    "id": 36226,
-    "category": 2,
-    "rating": 1,
-    "synopsis": "The content of this game is suitable for all persons. It contains: Violence that is set in a cartoon, slapstick or child like setting"
   },
   {
     "id": 36237,
@@ -21549,6 +21360,11 @@
     "rating": 9
   },
   {
+    "id": 37343,
+    "category": 1,
+    "rating": 9
+  },
+  {
     "id": 37359,
     "category": 1,
     "rating": 8
@@ -21900,11 +21716,6 @@
     "rating": 10
   },
   {
-    "id": 38019,
-    "category": 1,
-    "rating": 11
-  },
-  {
     "id": 38023,
     "category": 1,
     "rating": 11,
@@ -22193,11 +22004,6 @@
     "id": 38670,
     "category": 1,
     "rating": 11
-  },
-  {
-    "id": 38690,
-    "category": 1,
-    "rating": 8
   },
   {
     "id": 38694,
@@ -22791,6 +22597,11 @@
     "rating": 9
   },
   {
+    "id": 40184,
+    "category": 1,
+    "rating": 9
+  },
+  {
     "id": 40188,
     "category": 1,
     "rating": 9
@@ -23237,11 +23048,6 @@
     "rating": 8
   },
   {
-    "id": 41213,
-    "category": 1,
-    "rating": 8
-  },
-  {
     "id": 41224,
     "category": 1,
     "rating": 9
@@ -23261,11 +23067,6 @@
     "category": 1,
     "rating": 10,
     "synopsis": "Neon Abyss is a frantic, roguelike action-platformer where you run ‘n’ gun your way into the Abyss as part of the Hades formed ‘Grim Squad’. Featuring unlimited item synergies and a unique dungeon evolution system ensures each run will present a new challenge. Get ready to unleash hell!"
-  },
-  {
-    "id": 41244,
-    "category": 1,
-    "rating": 11
   },
   {
     "id": 41246,
@@ -23564,6 +23365,11 @@
     "id": 42014,
     "category": 1,
     "rating": 8
+  },
+  {
+    "id": 42031,
+    "category": 1,
+    "rating": 10
   },
   {
     "id": 42045,
@@ -23880,7 +23686,17 @@
     "rating": 1
   },
   {
+    "id": 42369,
+    "category": 2,
+    "rating": 5
+  },
+  {
     "id": 42407,
+    "category": 1,
+    "rating": 10
+  },
+  {
+    "id": 42417,
     "category": 1,
     "rating": 10
   },
@@ -23918,26 +23734,10 @@
     "rating": 11
   },
   {
-    "id": 43470,
-    "category": 1,
-    "rating": 11
-  },
-  {
-    "id": 43472,
-    "category": 1,
-    "rating": 11
-  },
-  {
     "id": 43477,
     "category": 1,
     "rating": 11,
     "synopsis": "This is a point-and-click adventure game in which players follow the characters and events from the novel of the same name. Players explore environments and interact with characters to influence the progression of the story. A handful of scenes depict brief instances of violence: a man stabbed through the chest with a spear; a man's throat getting slit, as blood splashes appear. Blood is also depicted in a childbirth scene (no nudity shown), and during a hunting sequence. The game includes some sexual material in the dialogue (e.g.,“I will f**k Bartholomew's wh*re of a daughter. I will f**k her good.”); one scene depicts a still image of a man grabbing a woman by the shoulders, accompanied by the text “He shoved his right hand under her skirt.”"
-  },
-  {
-    "id": 43479,
-    "category": 1,
-    "rating": 11,
-    "synopsis": "This is an action/role-playing game in which players assume the role of a man investigating human experimentation in a futuristic setting. Players explore post-apocalyptic environments and use clubs, laser swords, and flamethrowers to kill zombie-like enemies and boss characters in melee combat. Combat is highlighted by blood-splatter effects, explosions, and cries of pain. Players can also execute finishing moves in which enemies explode into armor sections and body parts; finishing moves are depicted with slow-motion effects and large splashes of blood. One dramatic cutscene depicts the central character screaming in pain as his exoskeleton (armor) is screwed onto his body; blood-splatter effects occur, as the camera focuses on the insertion of each screw. The words “f**k,” “sh*t,” and “a*shole” appear in the dialogue."
   },
   {
     "id": 43499,
@@ -24066,6 +23866,11 @@
     "synopsis": "The content of this game is suitable for persons aged 7 years and over only. It contains: Non realistic looking violence towards fantasy characters"
   },
   {
+    "id": 43784,
+    "category": 1,
+    "rating": 8
+  },
+  {
     "id": 43842,
     "category": 2,
     "rating": 4,
@@ -24131,6 +23936,11 @@
     "id": 44005,
     "category": 2,
     "rating": 2
+  },
+  {
+    "id": 44029,
+    "category": 1,
+    "rating": 8
   },
   {
     "id": 44131,
@@ -24377,5 +24187,317 @@
     "id": 44657,
     "category": 2,
     "rating": 4
+  },
+  {
+    "id": 44681,
+    "category": 2,
+    "rating": 5,
+    "synopsis": "The content of this game is suitable for persons aged 18 years and over only. It contains: Extreme violence - Multiple, motiveless killing - Violence towards defenceless people - Glamorisation of drugs - Strong language - Content that teaches or encourages gambling This game allows the player to interact with other players ONLINE"
+  },
+  {
+    "id": 44683,
+    "category": 2,
+    "rating": 3
+  },
+  {
+    "id": 44697,
+    "category": 2,
+    "rating": 5,
+    "synopsis": "The content of this game is suitable for persons aged 18 years and over only. It contains: Extreme violence - Multiple, motiveless killing - Violence towards defenceless people - Strong language This game allows the player to interact with other players ONLINE"
+  },
+  {
+    "id": 44704,
+    "category": 1,
+    "rating": 11,
+    "synopsis": "This is an action/role-playing game in which players assume the role of a man investigating human experimentation in a futuristic setting. Players explore post-apocalyptic environments and use clubs, laser swords, and flamethrowers to kill zombie-like enemies and boss characters in melee combat. Combat is highlighted by blood-splatter effects, explosions, and cries of pain. Players can also execute finishing moves in which enemies explode into armor sections and body parts; finishing moves are depicted with slow-motion effects and large splashes of blood. One dramatic cutscene depicts the central character screaming in pain as his exoskeleton (armor) is screwed onto his body; blood-splatter effects occur, as the camera focuses on the insertion of each screw. The words “f**k,” “sh*t,” and “a*shole” appear in the dialogue."
+  },
+  {
+    "id": 44706,
+    "category": 1,
+    "rating": 11,
+    "synopsis": "This is a first-person shooter in which players assume the role of a man (Ajay Ghale) returning to his ancestral home to spread his mother's ashes. Players engage in a variety of frenetic combat missions and use machine guns, pistols, shotguns, knives, and explosives to kill enemy fighters amid mountainous environments. Players can also perform stealth attacks (i.e., sneaking up on enemies and slitting throats/stabbing chests). Battles are highlighted by screams of pain, realistic gunfire, and large blood-splatter effects. Some levels/cutscenes depict further violence: characters tortured via electrocution, stabbed repeatedly in the neck, executed with bladed weapons. The game includes some sexual/suggestive material, including dialogue referencing sexual activity (e.g., “The army forces us to take drugs and then gives us more if we do sex for wealthy men”; “Some of the people in my village, the army forced them to become prostitutes”; “I think sex is fun;” “[I] was with this girl and she was into some crazy S&M. . .”). In one battle sequence, a man's genitals are briefly exposed while falling/being attacked. During the course of the game, two characters are depicted smoking marijuana; players' character also consumes the drug, resulting in blurred-screen effects and occasional hallucinations. The words “f**k,” “sh*t,” and “a*shole” appear in the dialogue."
+  },
+  {
+    "id": 44707,
+    "category": 1,
+    "rating": 11
+  },
+  {
+    "id": 44708,
+    "category": 1,
+    "rating": 11
+  },
+  {
+    "id": 44709,
+    "category": 1,
+    "rating": 11,
+    "synopsis": "This is a stealth action game in which players control a band of ninja and samurai heroes in Edo-era Japan. From a 3/4-overhead perspective, players infiltrate enemy strongholds and villages to complete mission objectives, including killing human targets. Players use swords, shurikens, and explosives to kill enemies. Blood is frequently depicted as enemies are slashed and stabbed. A handful of sequences depict characters committing seppuku (ritual suicide) and getting beheaded; large blood-splatter effects and pools of blood are depicted near severed heads and corpses."
+  },
+  {
+    "id": 44741,
+    "category": 1,
+    "rating": 10,
+    "synopsis": "This is a puzzle-adventure game in which players help a priest save the guests of a mysterious mansion. From a 3/4-overhead perspective, players traverse each room to discover the means to save guests and unlock additional powers (e.g., time travel, lock picking, second sight). A handful of sequences depict instances of violence: a woman hung inside a bell tower; a man incinerated in a furnace; a man shot with a rifle. Characters emit splashes of blood when injured, and blood is occasionally depicted pooling under dying characters. The game includes some alcohol references (e.g., “Huh…. maybe I've had too many!”; “Someone's been having a sly tipple on the job!”; A character named “Tequila Belle”), and one character appears drunk as he consumes alcohol. The word “bastard” appears in the dialogue."
+  },
+  {
+    "id": 44742,
+    "category": 1,
+    "rating": 11
+  },
+  {
+    "id": 44759,
+    "category": 1,
+    "rating": 10,
+    "synopsis": "Rating Summary This is a turn-based strategy game in which players engage in tactical missions to stop enemies from endangering a city. Combat is turn-based, with players moving their squad members around rooms in order to infiltrate and kill enemies (e.g., terrorists, aliens, mercenaries). Each character possesses unique combat skills (i.e., bursts of poison, scouting abilities), though most characters use pistols, machine guns, and explosives to kill enemies. Attack moves are depicted via brief, third-person perspective cutscenes, highlighted by blood-splatter effects. Some enemies are seen from above, lying in small pools of blood."
+  },
+  {
+    "id": 44776,
+    "category": 2,
+    "rating": 2,
+    "synopsis": "The content of this game is suitable for persons aged 7 years and over only. It contains: Non realistic looking violence towards fantasy characters - Violence that is set in a cartoon, slapstick or child like setting that could be upsetting to very young children - Pictures or sounds likely to be scary to young children"
+  },
+  {
+    "id": 44777,
+    "category": 1,
+    "rating": 11,
+    "synopsis": "Rating Summary This is a compilation of three action role-playing games in which players assume the role of Commander Shepard as he/she leads a mission to save the galaxy from a race of powerful mechanical beings known as the Reapers. From a third-person perspective, players traverse the galaxy exploring planets, interact with characters, and engage in combat against enemy forces. Players use futuristic machine guns, shotguns, assault rifles, and bionics abilities (e.g., lift, statis, warp) to defeat human enemies and alien creatures in frenetic combat. Enemies sometimes emit splashes of blood when hit, resulting in bloodstains on characters and the environment. Cutscenes depict additional acts of violence: a close-up of an alien shooting himself in the head; a character executed at close range. As players progress through the game, they can engage in romantic relationships with others; cutscenes depict characters embracing, kissing, and caressing each other on a bed—sexual activity is implied. Characters are sometimes seen nude, with exposed buttocks and partially exposed breasts. The game contains story elements that reference drugs (e.g., “Narcotics flooded my veins when I attacked,” “the Cartel are a bunch of dirty drug pushers,” and “This deal is too important to have a drug addict negotiating it.”). One sequence depicts players' character engaging in a drinking contest; another scene shows the central character repeatedly drinking alcohol at bar, then passing out. The words “f**k” and “sh*t” are heard in the dialogue."
+  },
+  {
+    "id": 44778,
+    "category": 2,
+    "rating": 5,
+    "synopsis": "Advice for consumers This game has received a PEGI 18 which restricts availability to ADULTS ONLY and is not suitable for anyone below this age. This rating has been given due to graphic violence, violence against vulnerable and defenceless characters, strong language and encouragement of gambling. Brief outline of the game Remastered version of the series of science fiction role-playing shooter games, including the original Trilogy and various DLC additions. Content specific issues Strong violence includes sight of characters being impaled on large spikes and being decapitated. The violence results in blood spraying from wounds. An unarmed woman is grabbed by the throat, shot in one of her legs and then used as a human shield. The game also includes use of strong language ('fuck'), as well as a variety of milder terms such as 'bitch'. Mass Effect 3: Citadel also includes a casino, in which the player can gamble at a roulette table using in game credits. Other issues There are scenes depicting sexual intercourse, without nudity."
+  },
+  {
+    "id": 44785,
+    "category": 2,
+    "rating": 2
+  },
+  {
+    "id": 44831,
+    "category": 1,
+    "rating": 10
+  },
+  {
+    "id": 44832,
+    "category": 1,
+    "rating": 8
+  },
+  {
+    "id": 44835,
+    "category": 1,
+    "rating": 8
+  },
+  {
+    "id": 44847,
+    "category": 2,
+    "rating": 5,
+    "synopsis": "The content of this game is suitable for persons aged 18 years and over only. It contains: Extreme violence - Strong language This game allows the player to interact with other players ONLINE"
+  },
+  {
+    "id": 44854,
+    "category": 1,
+    "rating": 10,
+    "synopsis": "No Rating Summary"
+  },
+  {
+    "id": 44855,
+    "category": 1,
+    "rating": 10
+  },
+  {
+    "id": 44856,
+    "category": 2,
+    "rating": 4,
+    "synopsis": "The content of this game is suitable for persons aged 16 years and over only. It contains: Realistic looking violence."
+  },
+  {
+    "id": 44857,
+    "category": 2,
+    "rating": 5,
+    "synopsis": "The content of this game is suitable for persons aged 18 years and over only. It contains: Extreme violence - Violence towards defenceless people - Glamorisation of drugs - Strong language"
+  },
+  {
+    "id": 44859,
+    "category": 2,
+    "rating": 4,
+    "synopsis": "The content of this game is suitable for persons aged 16 years and over only. It contains: Realistic looking violence This game allows the player to interact with other players ONLINE."
+  },
+  {
+    "id": 44861,
+    "category": 2,
+    "rating": 5,
+    "synopsis": "The content of this game is suitable for persons aged 18 years and over only. It contains: Extreme violence - Multiple, motiveless killing - Violence towards defenceless people - Glamorisation of drugs - Strong language This game allows the player to interact with other players ONLINE"
+  },
+  {
+    "id": 44862,
+    "category": 1,
+    "rating": 11,
+    "synopsis": "Content Descriptors: Intense Violence, Blood, Strong Language, Strong Sexual Content, Partial Nudity, Use of Drugs and Alcohol Other: Includes online features that may expose players to unrated user-generated content (Windows PC, Xbox 360, PlayStation 3)"
+  },
+  {
+    "id": 44864,
+    "category": 2,
+    "rating": 3,
+    "synopsis": "The content of this game is suitable for persons aged 12 years and over only. It contains: Non realistic looking violence towards human characters"
+  },
+  {
+    "id": 44865,
+    "category": 2,
+    "rating": 5,
+    "synopsis": "The content of this game is suitable for persons aged 18 years and over only. It contains: Extreme violence - Multiple, motiveless killing - Violence towards defenceless people - Strong language This game allows the player to interact with other players ONLINE"
+  },
+  {
+    "id": 44866,
+    "category": 2,
+    "rating": 4,
+    "synopsis": "The content of this game is suitable for persons aged 16 years and over only. It contains: Realistic looking violence - This game allows the player to interact with other players ONLINE."
+  },
+  {
+    "id": 44867,
+    "category": 2,
+    "rating": 5,
+    "synopsis": "The content of this game is suitable for persons aged 18 years and over only. It contains: Extreme violence - Strong language This game allows the player to interact with other players ONLINE."
+  },
+  {
+    "id": 44868,
+    "category": 2,
+    "rating": 4,
+    "synopsis": "The content of this game is suitable for persons aged 16 years and over only. It contains: Realistic looking violence This game allows the player to interact with other players ONLINE"
+  },
+  {
+    "id": 44869,
+    "category": 2,
+    "rating": 2,
+    "synopsis": "The content of this game is suitable for persons aged 7 years and over only. It contains: Violence that is not shown but is implied This game allows the player to interact with other players ONLINE"
+  },
+  {
+    "id": 44871,
+    "category": 2,
+    "rating": 5,
+    "synopsis": "The content of this game is suitable for persons aged 18 years and over only. It contains: Extreme violence - Violence towards defenceless people - Strong language This game allows the player to interact with other players ONLINE."
+  },
+  {
+    "id": 44872,
+    "category": 1,
+    "rating": 11,
+    "synopsis": "This is an \"open-world\" action game in which players assume the role of Vito Scaletta, an ex-convict and World War II veteran who becomes involved in a crime family. The game depicts a 1940s and 50s urban landscape, which includes a criminal underworld that the protagonist must navigate through in order to progress. Players complete various missions that either advance the main storyline or award the player with in-game currency and connections. Many of the missions require players to engage in criminal activity: stealing cars, robbing gas stations, running drugs, killing rival gang members. Players use pistols, Tommy guns, shotguns, and knives to kill enemies and occasionally civilians. Blood often spurts out of injured characters, stains the walls/ground, and occasionally sprays onto the screen. Some cutscenes depict more intense instances of violence, including close-range executions, stabbing, and throat slitting. Within the free-roaming context (i.e., not missions), players have the ability to attack police officers and pedestrians on the streets, in bars, shops, etc; however, these acts are not directly rewarded, preventing players from maintaining a low profile from the police. During the course of the game, players can encounter some sexually suggestive material: brothels with prostitutes in revealing lingerie; a gentleman's club with female dancers; and Playboy magazine pin-ups hidden in certain areas of the game (topless images, bare buttocks). There is also a gallery accessible from the main menu, where players can view all of their collected pin ups. One cutscene briefly depicts the top of a woman's head as she performs fellatio on a man—the camera cuts away to other patrons at the table, the man's reactions. Alcohol and drug use are also depicted in the game. Players' character can order alcohol at a bar and drink until his vision becomes blurry; players are able to drive their cars in this impaired state. Characters are also depicted buying and selling drugs in a cutscene montage. Although the protagonist is never depicted using drugs, a few ancillary characters sometimes can be seen smoking marijuana or sampling cocaine. Language such as \"f**k,\" \"sh*t,\" and \"\"n**ger\" can be heard in the dialogue."
+  },
+  {
+    "id": 44873,
+    "category": 2,
+    "rating": 5,
+    "synopsis": "he content of this game is suitable for persons aged 18 years and over only. It contains: Extreme violence - Violence towards defenceless people - Strong language - Content that teaches or encourages gambling."
+  },
+  {
+    "id": 44908,
+    "category": 2,
+    "rating": 3,
+    "synopsis": "The content of this game is suitable for persons aged 12 years and over only. It contains: Realistic looking violence towards non human looking characters - Mild bad language."
+  },
+  {
+    "id": 44911,
+    "category": 2,
+    "rating": 3,
+    "synopsis": "The content of this game is suitable for persons aged 12 years and over only. It contains: Non realistic looking violence towards human characters - Violence in a sporting context - Sexual images and/or sexual innuendo - Mild bad language This game allows the player to interact with other players ONLINE"
+  },
+  {
+    "id": 44918,
+    "category": 2,
+    "rating": 3,
+    "synopsis": "The content of this game is suitable for persons aged 12 years and over only. It contains: Non realistic looking violence towards human characters"
+  },
+  {
+    "id": 44926,
+    "category": 2,
+    "rating": 5,
+    "synopsis": "The content of this game is suitable for persons aged 18 years and over only. It contains: Extreme violence - Multiple, motiveless killing - Strong language This game allows the player to interact with other players ONLINE."
+  },
+  {
+    "id": 44927,
+    "category": 2,
+    "rating": 3,
+    "synopsis": "The content of this game is suitable for persons aged 12 years and over only. It contains: Realistic looking violence - Mild bad language."
+  },
+  {
+    "id": 44928,
+    "category": 2,
+    "rating": 3,
+    "synopsis": "The content of this game is suitable for persons aged 12 years and over only. It contains: Mild bad language This game allows the player to interact with other players ONLINE"
+  },
+  {
+    "id": 44931,
+    "category": 2,
+    "rating": 4,
+    "synopsis": "The content of this game is suitable for persons aged 16 years and over only. It contains: Realistic looking violence."
+  },
+  {
+    "id": 44932,
+    "category": 2,
+    "rating": 4,
+    "synopsis": "The content of this game is suitable for persons aged 16 years and over only. It contains: Realistic looking violence - This game allows the player to interact with other players ONLINE"
+  },
+  {
+    "id": 44933,
+    "category": 2,
+    "rating": 4,
+    "synopsis": "Advice for consumers Contains glamorisation of crime and occasional strong bad language. Brief outline of the game 2D top down view free roam action game. Gameplay is based around being a criminal and includes stealing cars, shooting other gangsters, shooting pedestrians, driving over people and fighting off the police. Content specific issues Characters are indistinct, undetailed and all gameplay is top down 2D. Although there is blood, characters' reactions to being hurt or injured are non-realistic. The game features frequent mild bad language in on-screen speech bubbles including 'asswipe', 'shit' and 'bastard'. Also the game contains an introductory song that includes use of the word 'fuck'."
+  },
+  {
+    "id": 44940,
+    "category": 1,
+    "rating": 10,
+    "synopsis": "Rating Summary This is an action game, based on characters from the Marvel Comics universe, in which players form combat parties to battle enemies and boss characters in a quest for Infinity Stones. From a pulled back third-person perspective, players punch, kick, and throw enemies in frenetic combat; several characters use guns/blasters, swords, arrows, and magic attacks (e.g., blasts of energy, fireballs) to defeat enemies. One sequence allows players to throw oversized missiles at characters, and a boss battle requires players to use laser turrets to shoot a giant robot. One character is briefly depicted with blood splattered on his apron; a battlefield contains a large occult symbol that appears to be painted in blood. Some gallery images depict characters in revealing and/or form-fitting costumes (e.g., buttocks, chest)."
+  },
+  {
+    "id": 44941,
+    "category": 2,
+    "rating": 3,
+    "synopsis": "Advice for consumers This game was rated PEGI 12 for frequent scenes of moderate non-realistic violence. It is not suitable for persons under 12 years of age. Brief outline of the game Action role playing game. Assemble your team of Marvel Super Heroes from the cast of the Marvel heroes and a few villains. Team up with friends to prevent galactic devastation at the hands of the cosmic tyrant Thanos and his ruthless Black Order. Content specific issues Violence is portrayed in a typical exaggerated comic book style and occurs in both full motion video scenes and gameplay action featuring both human-like and fantasy characters fighting with their weapons and special abilities. There are numbers indicating hit points and damage to characters life bars along with lots of bright flashing effects and comedic circling stars above their heads. While defeated enemies can often remain on the field of play, blood and injuries are not depicted. Other issues This game offers in-game items which may be purchased by the player using real-world money."
+  },
+  {
+    "id": 44978,
+    "category": 1,
+    "rating": 10,
+    "synopsis": "This is a fighting game in which players engage in one-on-one combat with a large cast of human, animal, and supernatural characters. Players use martial arts punches, kicks, and throws to drain their opponents' life meters. Some characters supplement traditional hand-to-hand combat with weapons (guns, bats, swords, rocket launchers, etc.); other characters can summon more fantastical attacks, including laser beams that shoot from their eyes; chainsaws attached to arms; a flatulence attack stronger than the average bear's; and an assortment of \"Drunken\" attacks (\"Drunken Tiger Kick, \"Drunken Master Walk,\" \"Drunken Rapid Fists,\" \"Drunken Fox Combination,\" etc.). It is probably no coincidence that the fighter who performs the Drunken Master Walk will wobble, lurch, and lose his balance as he fights. Players can access a wide range of customizable accessories for their characters; some of these items include outfits that expose portions of female fighters' lower breasts and buttocks. During a few cutscenes (where graphics tend to be enhanced), the camera briefly pans on their thighs, breasts, and buttocks; and during battle, when a female character is struck by an attack, her breasts will sometimes bounce. (There are no comparable physics applied to male characters.) The majority of cutscenes (including those above) introduce elements of irreverence and comic relief, though one sketch might be difficult to digest: pizza, laxatives—flatulence. The dialogue contains the expletives \"a*s,\" \"bastard,\" \"damn,\" and \"b*tch\"; it may also contain a line expressed by one of its feisty female characters—Asuka Kazama: \"If you're not gonna take me seriously, then I'll just have to give you a serious a*s-kicking.\""
+  },
+  {
+    "id": 44979,
+    "category": 2,
+    "rating": 4,
+    "synopsis": "The content of this game is suitable for persons aged 16 years and over only. It contains: Realistic looking violence This game allows the player to interact with other players ONLINE"
+  },
+  {
+    "id": 44992,
+    "category": 2,
+    "rating": 5,
+    "synopsis": "The content of this game is suitable for persons aged 18 years and over only. It contains: Extreme violence - Strong language."
+  },
+  {
+    "id": 45069,
+    "category": 2,
+    "rating": 5
+  },
+  {
+    "id": 45077,
+    "category": 2,
+    "rating": 3,
+    "synopsis": "The content of this game is suitable for persons aged 12 years and over only. It contains: •Non realistic looking violence towards characters which although human are not very detailed •Moving images which teaches games of chance"
+  },
+  {
+    "id": 45081,
+    "category": 2,
+    "rating": 4
+  },
+  {
+    "id": 45168,
+    "category": 1,
+    "rating": 11
+  },
+  {
+    "id": 45177,
+    "category": 2,
+    "rating": 2,
+    "synopsis": "The content of this game is suitable for persons aged 7 years and over only. It contains: Non realistic looking violence towards human characters"
   }
 ]

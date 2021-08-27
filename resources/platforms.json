@@ -174,23 +174,23 @@
     "id": 21,
     "abbreviation": "NGC",
     "category": 1,
-    "created_at": 1297987200,
+    "created_at": 1298032543,
     "generation": 6,
     "name": "Nintendo GameCube",
     "platform_logo": 262,
     "slug": "ngc",
-    "updated_at": 1565136000
+    "updated_at": 1628498924
   },
   {
     "id": 22,
     "abbreviation": "GBC",
     "category": 5,
-    "created_at": 1300147200,
+    "created_at": 1300187960,
     "generation": 5,
     "name": "Game Boy Color",
     "platform_logo": 273,
     "slug": "gbc",
-    "updated_at": 1589587200
+    "updated_at": 1628498928
   },
   {
     "id": 23,
@@ -882,33 +882,33 @@
     "id": 167,
     "abbreviation": "PS5",
     "category": 1,
-    "created_at": 1543449600,
+    "created_at": 1543501750,
     "generation": 9,
     "name": "PlayStation 5",
     "platform_logo": 463,
     "slug": "ps5",
-    "updated_at": 1602028800
+    "updated_at": 1628884745
   },
   {
     "id": 169,
     "abbreviation": "Series X",
     "category": 1,
-    "created_at": 1565222400,
+    "created_at": 1565273347,
     "generation": 9,
-    "name": "Xbox Series",
+    "name": "Xbox Series X|S",
     "platform_logo": 561,
     "slug": "series-x",
-    "updated_at": 1603238400
+    "updated_at": 1629881670
   },
   {
     "id": 170,
     "abbreviation": "Stadia",
     "category": 3,
-    "created_at": 1565222400,
+    "created_at": 1565274018,
     "name": "Google Stadia",
     "platform_logo": 328,
     "slug": "stadia",
-    "updated_at": 1574294400
+    "updated_at": 1628547206
   },
   {
     "id": 240,
