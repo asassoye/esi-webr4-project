@@ -17,6 +17,12 @@ interface Game {
     }]
 }
 
+interface Screenshot {
+  id: number,
+  url: string,
+  game: string
+}
+
 const search = async (name: string) => {
   const config: AxiosRequestConfig = {
     method: 'get',
@@ -28,4 +34,16 @@ const search = async (name: string) => {
   return axios(config)
 }
 
-export { search, Game }
+const randomScreenshots = async () => {
+  const config: AxiosRequestConfig = {
+    method: 'get',
+    url: `screenshot/random`,
+    headers: {
+      Accept: 'application/json'
+    }
+  }
+
+  return axios(config)
+}
+
+export { search, randomScreenshots, Game, Screenshot }

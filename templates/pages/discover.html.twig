@@ -4,6 +4,7 @@
 
 {% block main %}
 	<div class="row" style="margin: 0; padding: 2rem;" id="base">
+
 		<h3>Popular games</h3>
 		{% for game in popular %}
 			<div class="col-2 px-2 py-2 game-card-wrapper">
@@ -16,6 +17,11 @@
 			</div>
 
 		{% endfor %}
+
+		<div class="col-12 mt-5" id="random-shit">
+			<h3>Random screenshots</h3>
+			<p>Loading...</p>
+		</div>
 
 		<h3 class="mt-5">My favorites</h3>
 		{% for game in favorites %}
