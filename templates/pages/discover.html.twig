@@ -1,0 +1,33 @@
+{% extends 'gdb_base.html.twig' %}
+
+{% block title %}Discover{% endblock %}
+
+{% block main %}
+	<div class="row" style="margin: 0; padding: 2rem;" id="base">
+		<h3>Popular games</h3>
+		{% for game in popular %}
+			<div class="col-2 px-2 py-2 game-card-wrapper">
+				<a href="{{ path('app_game_showgame', {'slug': game.slug}) }}">
+					<div class="game-card">
+						<img src="https://images.igdb.com/igdb/image/upload/t_cover_big/{{ game.cover.url }}.jpg"
+						     class="img-fluid game-card-image" alt="{{ game.name }}">
+					</div>
+				</a>
+			</div>
+
+		{% endfor %}
+
+		<h3 class="mt-5">My favorites</h3>
+		{% for game in favorites %}
+			<div class="col-2 px-2 py-2 game-card-wrapper">
+				<a href="{{ path('app_game_showgame', {'slug': game.slug}) }}">
+					<div class="game-card">
+						<img src="https://images.igdb.com/igdb/image/upload/t_cover_big/{{ game.cover.url }}.jpg"
+						     class="img-fluid game-card-image" alt="{{ game.name }}">
+					</div>
+				</a>
+			</div>
+
+		{% endfor %}
+	</div>
+{% endblock %}

@@ -1,11 +1,12 @@
 <nav class="navbar navbar-expand main-nav">
-	<a class="navbar-brand"><i class="fas fa-gamepad"></i></a>
+	<a class="navbar-brand" href="{{ path('app.index') }}"><i class="fas fa-gamepad"></i></a>
 	<ul class="navbar-nav me-auto">
-		<li class="nav-item">
-			<a class="nav-link" href="#"><i class="fas fa-binoculars"></i> Discover</a>
+		<li class="nav-item{% if app.request.get('_route') == 'app.discover' %} active{% endif %}">
+			<a class="nav-link"
+			   href="{{ path('app.discover') }}"><i class="fas fa-binoculars"></i> Discover</a>
 		</li>
-		<li class="nav-item">
-			<a class="nav-link" href="#"><i class="fas fa-info-circle"></i> About</a>
+		<li class="nav-item{% if app.request.get('_route') == 'app.about' %} active{% endif %}">
+			<a class="nav-link" href="{{ path('app.about') }}"><i class="fas fa-info-circle"></i> About</a>
 		</li>
 	</ul>
 	<form class="d-flex navbar-search" action="http://localhost:9696/search" method="get" id="searchForm">

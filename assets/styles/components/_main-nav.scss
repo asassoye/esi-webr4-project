@@ -38,8 +38,13 @@ nav.main-nav {
         line-height: 3.5rem;
         padding: 0 1.5rem;
       }
+
+
     }
 
+    li.active {
+      background-color: $dark;
+    }
   }
 
   form.navbar-search {
