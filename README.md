@@ -5,13 +5,13 @@
 ## Les fonctionnalités
 ### Discover
 
-![GDB](.github/images/pages/discover_popular.png)
+![Discover page](.github/images/pages/discover_popular.png)
 
 ### My favorites
-![GDB](.github/images/pages/discover_favorites.png)
+![My favorites](.github/images/pages/discover_favorites.png)
 
 ### Recherche d'un jeu
-![GDB](.github/images/pages/search.png)
+![Search a game](.github/images/pages/search.png)
 
 ## Mise en place du serveur
 ### docker-compose
